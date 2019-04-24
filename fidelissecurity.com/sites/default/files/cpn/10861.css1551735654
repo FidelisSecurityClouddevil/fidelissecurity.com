@@ -1,0 +1,80 @@
+.paragraphs-item-full-view-port .paragraphs-items-field-inner-content {
+    margin-right: 18%;
+    margin-left: 18%;
+    height: 100%;
+    padding: 2em 0;}
+
+h1.callout{color: #7FBD38; font-weight: bold; text-align: center; font-size: 2.8rem; padding: 30px 0px 20px 0px;}
+.calloutLink {font-weight:bold; text-align: center;}
+.calloutLink a:link{text-decoration:none; color:#fff}
+.calloutLink a:visited{text-decoration:none; color:#fff}
+.calloutLink a:hover{text-decoration:none; color: #e55f06;}
+
+
+.sectionForce h4{    font-weight: bold;
+    font-size: 1.75rem;
+    color: #707070;
+    text-align: center;
+    margin: 0px auto .75rem auto;}
+
+.sectionForce h2{font-weight: normal;  }
+.sectionForce .flex-w-50--lg {padding: 2em 5em 0em 5em;}
+.sectionForce .flex-w-50--lg.border {background: url(https://www.fidelissecurity.com/sites/default/files/line_orange.png) no-repeat right;}
+.sectionForce li{margin-bottom: .7em;}
+
+.hoverContent ul { margin-bottom:0px}
+.hoverList ul { list-style-type: none; margin-bottom:0px}
+
+.hoverList li h3 {font-size: 1.3rem; color: #e55f06; font-weight:normal; text-decoration: none; background: url(https://www.fidelissecurity.com/sites/default/files/check_outline-39.png) no-repeat; height: 39px; padding: 6px 0px 0px 50px;}
+
+.hoverList li h3:hover{ background: url(https://www.fidelissecurity.com/sites/default/files/check_solid-39.png) no-repeat;}
+
+.hoverList li h3 a{color: #e55f06 !important; text-decoration:none}
+.hoverList li h3 a:link{color: #e55f06 !important; text-decoration:none}
+.hoverList li h3 a:visited{color: #e55f06 !important; text-decoration:none}
+.hoverList li h3 a:hover{color:#bed7dc !important; text-decoration:none;}
+
+
+.hoverList .doubleLine{line-height:25px; margin-bottom: 31px;}
+.hoverContent{ color:#bed7dc; padding-top: 1em;}
+.hoverContent .listHeader{margin-bottom: 5px; font-weight: bold; font-size: 1.75rem; line-height: 2rem;}
+
+.sectionDetail{}
+
+.btn, .btn:hover{
+    background-color: #77bc1f;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-size: 1rem;
+    line-height: 1;
+    padding: .72em 1em 0.4em;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+    box-shadow: 0px 2px 0px 0px #5a8e17, 0px 2px 2px 0px rgba(0,0,0,0.25);
+    color: #FFF;
+    text-shadow: none;
+    transition: transform .15s ease-in-out,box-shadow .2s ease-in-out;
+    transform: translateY(0px);
+    font-weight: bold !important;}
+
+.sectionResource .content{text-align:right}
+.sectionResource img{width:80%}
+.sectionResource .resourceDesc{
+     font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+color:#FFF}
+
+.sectionResource .resourceDesc span{font-weight: normal;
+    font-size: 1.2rem;
+    color: #414B5C;
+    line-height: 1rem;}
+
+.productHead{
+    color: #FFF;
+    font-size: 2.2rem;
+    text-align: center;}
+
+.orange{color:#E55D07}

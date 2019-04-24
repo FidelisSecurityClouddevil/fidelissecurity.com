@@ -1,0 +1,179 @@
+(function($, w, doc){
+
+  "use strict";
+
+  	$( document ).ready(function() {
+	   if ($('body').hasClass('is-landing')){
+	    	$('#fiel .fig1').on('mouseenter', function() {
+			  $(this).closest('.wrapper').removeClass('fig2 fig3').addClass('fig1');
+			});
+			$('#fiel .fig2').on('mouseenter', function() {
+			  $(this).closest('.wrapper').removeClass('fig1 fig3').addClass('fig2');
+			});
+			$('#fiel .fig3').on('mouseenter', function() {
+			  $(this).closest('.wrapper').removeClass('fig1 fig2').addClass('fig3');
+			});
+			$('#fiel .fig1, #fiel .fig2, #fiel .fig3').on('mouseleave', function() {
+			  $(this).closest('.wrapper').removeClass('fig1 fig2 fig3');
+			});
+			$('.block-fidelis-elevate .second a').on('mouseenter', function() {
+			  $(this).closest('.wrapper').removeClass('fig1 fig2 fig3').addClass('fig'+($(this).parent().index()+1));
+			});
+			$('.block-fidelis-elevate .second a').on('mouseleave', function() {
+			  $(this).closest('.wrapper').removeClass('fig1 fig2 fig3');
+			});
+			$('#fiel .fig1').on('click', function() {
+			  var $a = $(this).closest('.wrapper').find('.second li:first-child a');
+			  document.location.href = $a.attr('href');
+			});
+			$('#fiel .fig2').on('click', function() {
+			  var $a = $(this).closest('.wrapper').find('.second li:nth-child(2) a').trigger('click');
+				document.location.href = $a.attr('href');
+			});
+			$('#fiel .fig3').on('click', function() {
+			  var $a = $(this).closest('.wrapper').find('.second li:last-child a').trigger('click');
+				document.location.href = $a.attr('href');
+			});
+			$('.block-video .js-open-modal').click(function() {
+				var $ov = $(this).parent().find('.overlay').css({'display':'block'}),
+				$vc = $(this).parent().find('.video-container').clone();
+				$vc.prependTo($ov);
+				$vc.find('.close').click(function() {
+					$ov.css({'display':'none'});
+					$vc.remove();
+				});
+				return false;
+			});
+    	}
+ 		$('.region-action form').on("DOMNodeInserted",'.mktoFormRow',function (event) {
+			if ( $(event.target).hasClass('mktoFieldDescriptor') ) {
+				var $st = $('#State');
+		  		function lp () {
+			  		$st.addClass('prepared');
+					$st.select({
+		           allLabel: 'State',
+		           classCopy: 'required error',
+		         });
+	  			};
+		 		if ($st.length && !$st.hasClass('prepared')) {
+		 			setTimeout(lp, 100);
+		 		};
+		 	};
+		});
+  	});
+ 	MktoForms2.whenReady(function (form) {
+ 		if ($('body').hasClass('is-landing')){
+		var $fn = $('#FirstName'),
+		  $ln = $('#LastName'),
+		  $em = $('#Email'),
+		  $co = $('#Country'),
+		  $ti = $('#Title'),
+		  $com = $('#Company'),
+		  $ph = $('#Phone'),
+		  $so = $('#Source_Type__c'),
+		  $ntua = $('#networkTrialUserAgreement');
+
+	  if ($fn.length && !$fn.hasClass('prepared')) {
+			$fn.labelsPrepare({
+				placeholder: 'First Name',
+			});
+			$fn.addClass('prepared');
+	  	};
+	  if ($ln.length && !$ln.hasClass('prepared')) {
+			$ln.labelsPrepare({
+				placeholder: 'Last Name',
+			});
+			$ln.addClass('prepared');
+	  	};
+	  if ($em.length && !$em.hasClass('prepared')) {
+			$em.labelsPrepare({
+				placeholder: 'email@address.com',
+			});
+			$em.addClass('prepared');
+	  	};
+	  if ($co.length && !$co.hasClass('prepared')) {
+	  		$co.addClass('prepared');
+			$co.select({
+           allLabel: 'Country',
+           classCopy: 'required error',
+         });
+         $co.change(function() {
+ 				form.vals({ "Country":this.value});
+			});
+	  	};
+	  if ($com.length && !$com.hasClass('prepared')) {
+			$com.labelsPrepare({
+				placeholder: 'Company',
+			});
+			$com.addClass('prepared');
+	  	};	  
+	  	if ($ti.length && !$ti.hasClass('prepared')) {
+			$ti.labelsPrepare({
+				placeholder: 'Job Title',
+			});
+			$ti.addClass('prepared');
+	  	};
+	  if ($ph.length && !$ph.hasClass('prepared')) {
+			$ph.labelsPrepare({
+				placeholder: 'Phone Number',
+			});
+			$ph.addClass('prepared');
+	  	};
+	  	if ($so.length && !$so.hasClass('prepared')) {
+	  		$so.addClass('prepared');
+			// $so.select({
+   //         allLable: "I'm interested in..",
+   //         classCopy: 'required error',
+   //         unbindClick: true
+   //       });
+		   $so.chosen({
+		   	disable_search: true,
+		   	placeholder_text_multiple: "I'm interested in..",
+		   });
+		   $so.val('').trigger('chosen:updated');
+	  	};
+	  	if ($ntua.length && !$ntua.hasClass('prepared')) {
+  			$ntua.labelsPrepare();
+        form.vals({ "networkTrialUserAgreement":false});
+          $('button[type="submit"].mktoButton').addClass('disabled')[0].disabled = true;
+          $('.notice-overlay').css({'display':'none'});
+          $('html').css('height','100%');
+  			$ntua.addClass('prepared');
+        $ntua.change(function() {
+          if (this.checked) {
+            $('.notice-overlay').css({'display':'block'});
+            $('body').addClass('no-scroll');
+          } else {
+            $('button[type="submit"].mktoButton').addClass('disabled')[0].disabled = true;
+            $('.notice-overlay').css({'display':'none'});
+            $('body').removeClass('no-scroll');
+          }
+        });
+        $('.notice-overlay .btn').click(function() {
+          if (!$(this).hasClass('disabled')) {
+            $('.notice-overlay').css({'display':'none'});
+            $('body').removeClass('no-scroll');
+            if ($(this).hasClass('agree')) {
+              $('button[type="submit"].mktoButton').removeClass('disabled')[0].disabled = false;
+            } else {
+              $ntua[0].checked = false;
+              form.vals({ "networkTrialUserAgreement":false});
+            }
+          }
+        });
+        $('#importantNotes').change(function() {
+          if (this.checked) {
+            $('.notice-overlay .btn.agree').css({'opacity':1, 'cursor':'pointer'}).removeClass('disabled');
+          } else {
+            $('.notice-overlay .btn.agree').css({'opacity':0.5, 'cursor':'default'}).addClass('disabled');
+          }
+        });
+	  	}
+	  	$('.agreement-louncher').click(function() {
+	  		$('#networkTrialUserAgreement').click();
+	  	});
+	  }
+	});
+
+
+} ( jQuery, this, this.document ));

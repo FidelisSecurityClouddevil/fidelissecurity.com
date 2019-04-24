@@ -1,0 +1,340 @@
+/*
+  Select customization v1.0 (01.13.19)
+  Author: Pavel Tkach
+*/
+(function($){
+
+  function handClickLi(event) {
+    var e = event || window.event,
+    $sb = e.data.elm, onSelectChangedBefore = e.data.fun,
+    al = e.data.al, label = e.data.label;
+    e.stopPropagation();
+
+    var $w = $(this).closest('.wrap-sb'),$u = $w.find('.list'),
+      $lb = $w.find('.label'), $se = $w.children('select');
+      t = $u.attr('data-label')?$u.attr('data-label'):$se.children('option').eq(0).text();
+
+    if ($se.attr('multiple')) {
+      var lastChecked = $se.data('lastChecked'),
+      $li = $(this).parent().children();
+
+      if ( event.ctrlKey || ( window.navigator.userAgent.indexOf("Mac") && event.metaKey ) || e.shiftKey ) {
+        $se[0].options[$(this).index()].selected = true; 
+        if(!lastChecked) lastChecked = this;
+        // with shift
+        if(event.shiftKey) {
+          var start = $li.index(this),
+          end = $li.index(lastChecked);
+          if (start >= 0 && start === end) {
+            if ($li.hasClass('selected')) {
+              $(this).removeClass('selected');
+              $se[0].options[start].selected = false;
+              $lb.children('[data-value="'+$se[0].options[start].value+'"]').remove();
+            } else {
+              $(this).addClass('selected');
+              $se[0].options[start].selected = true;
+              $('<span class="item" data-value="'+$se[0].options[start].value+'">'+$se[0].options[start].text+'</span>').appendTo($lb);
+            }
+          } else {
+            var sel = ($(lastChecked).hasClass('selected') && $(this).hasClass('selected'))?true:false,
+            min = Math.min(start,end), max = Math.max(start,end);  
+            for (var i = min; i <= max; i++) {
+              if (sel) {
+                if (i != start) {
+                  $li.eq(i).removeClass('selected');
+                  $se[0].options[i].selected = false;
+                  $lb.children('[data-value="'+$se[0].options[i].value+'"]').remove();
+                }
+              } else {
+                $li.eq(i).addClass('selected');
+                $se[0].options[i].selected = true;
+                if (!$lb.children('[data-value="'+$se[0].options[i].value+'"]').length) {
+                  $('<span class="item" data-value="'+$se[0].options[i].value+'">'+$se[0].options[i].text+'</span>').appendTo($lb);
+                };
+              };               
+            };           
+          }
+        } else {
+          var i = $li.index(this);
+          if ($(this).hasClass('selected')) {
+            $(this).removeClass('selected');
+            $se[0].options[i].selected = false;
+            $lb.children('[data-value="'+$se[0].options[i].value+'"]').remove();
+          } else {
+            $(this).addClass('selected');
+            $se[0].options[i].selected = true;
+            $('<span class="item" data-value="'+$se[0].options[i].value+'">'+$se[0].options[i].text+'</span>').appendTo($lb);
+          }
+        };
+        $se.data('lastChecked',this);
+      } else {
+        for (var i = 0; i < $se[0].options.length; i++) {
+          $se[0].options[i].selected = false;
+        }
+        $se[0].options[$(this).index()].selected = true;
+        $(this).siblings().removeClass('selected'); 
+        $lb.children().remove();
+        $(this).addClass('selected');
+        $('<span class="item" data-value="'+$se[0].options[$li.index(this)].value+'">'+$se[0].options[$li.index(this)].text+'</span>').appendTo($lb);
+
+        //$sb.removeClass('open').find('.ddbox').fadeOut(200);
+        $se.data('lastChecked',this);
+      };
+    } else {
+      if ( $(this).index() == 0 ) {
+        if (typeof al == 'string') {
+          $lb.html(al);     
+        } else $lb.text(label);
+      } else {
+        $lb.text($(this).text());
+      };        
+      $se[0].options.selected = false;
+      $se[0].options[$(this).index()].selected = true; 
+      $se[0].value = $(this).text();
+      $se[0].selectedIndex = $(this).index();
+      $sb.removeClass('open').find('.ddbox').fadeOut(200);     
+    };
+    $se.trigger('change');
+    if ($.isFunction(onSelectChangedBefore)) {
+      onSelectChangedBefore.call(this);
+    };
+  };
+
+  var methods = {
+    init : function( options ) { 
+      var options = $.extend({
+          selectBox:  '.selectBox',
+          addClasses: '',
+          classCopy: '',
+          addWrapClasses: '',
+          allLabel: false, //default text: false - selected option or option[0], true - label, otherwise - html code
+          arrangeLabel: false,
+          hideselect: true,
+          filestyle: false,
+          height: 'auto',
+          eventContainer: 'html',
+          multiple: false,
+          onOpenDDBoxBefore: function() {},
+          onCloseDDBoxAfter: function() {},
+          onSelectChangedBefore: function() {},
+      }, options);
+
+      // restore/save options
+      if ( this.data('select') ) {
+        options = this.data('select');
+      } else {
+        this.data('select',options);
+      };
+
+      var selectBox = options.selectBox, ec = options.eventContainer, allLabel = options.allLabel, $u,
+      listc  = options.classCopy.split(" "),
+      onOpenDDBoxBefore = options.onOpenDDBoxBefore,
+      onCloseDDBoxAfter = options.onCloseDDBoxAfter,
+      onSelectChangedBefore = options.onSelectChangedBefore,
+      hide = options.hideselect, ov = 'auto', $wo;
+
+      function handClickEC(event) {
+        var ec = event.data.elm, selectBox = event.data.sb;
+        e = event || window.event, $o = $(e.target || e.srcElement);
+        $os = $o.parents(selectBox).length?$o.parents(selectBox):$o;
+        e.stopPropagation();
+        if ($o.closest(ec).length > 0 && !$os.is($(selectBox,ec))) {
+          $(selectBox,ec).removeClass('open').find('.ddbox').fadeOut(0);
+        }
+      };
+      function handClickSB(event) {
+        var e = event || window.event,
+        $sb = event.data.elm, op = event.data.se[0].options;
+        e.stopPropagation();
+        $(selectBox,options.eventContainer).each(function() {
+          if ($(this).is($sb)) {
+            if ($(e.target).hasClass('item')) {
+              var $it = $(e.target), v = $it.attr('data-value'), 
+              $li = $sb.find('.ddbox li'), $l = $li.filter('[data-value="'+v+'"]');
+              if ($l.length) {
+                i = $li.index($l);
+                $l.removeClass('selected');
+                op[i].selected = false;
+                $it.remove();
+              };
+            } else {
+              if ($(this).hasClass('open')) { 
+                $(this).removeClass('open').find('.ddbox').fadeOut(200); 
+                if ($.isFunction(onCloseDDBoxAfter)) {
+                  onCloseDDBoxAfter.call(this);
+                };          
+              } else { 
+                if ($.isFunction(onOpenDDBoxBefore)) {
+                  onOpenDDBoxBefore.call(this);
+                };
+                $(this).addClass('open').find('.ddbox').fadeIn(200);//animate({height:'toggle'},200) 
+              };
+            };
+          } else $(this).removeClass('open').find('.ddbox').fadeOut(0);
+        }); 
+      };
+
+      // add file list style
+      if (typeof options.filestyle == 'string' ) {
+        var css = $("<link>", {
+          "rel" : "stylesheet",
+          "type" :  "text/css",
+          "href" : options.filestyle
+        })[0];
+        css.onerror = function(event) { 
+          console.log('The file "'+this.href+'" not found!'); 
+        };
+        document.getElementsByTagName("head")[0].appendChild(css);
+      }    
+
+      // transform select to selectbox
+      $(this).each(function(i) {   
+        var $se = $(this), $w = $(this).parent();
+        if ( $w && !$w.hasClass('wrap-sb') ) {
+          var $lbs = $(this).parent().children('label'),l = '';
+          if (!$lbs.length) $lbs = $('label[for="'+$(this).attr('id')+'"]');
+          l = $lbs.length? $lbs.text().trim():'';
+          // arrange label
+          if ($lbs.length && options.arrangeLabel) $lbs.insertBefore($se);
+          // set multiple option
+          if (options.multiple) $(this).attr('multiple',true);
+          // do selectBox base structure
+          $(this).add($lbs).wrapAll('<div class="wrap-sb"></div>');
+          $w = $(this).parent('.wrap-sb');
+          var $sb = $('<div class="'+selectBox.replace('.','')+'"><span class="label"></span><div class="ddbox"><ul class="list"></ul></div></div>').insertAfter($(this)),
+          $lb = $sb.children('.label'), $dd = $sb.find('.ddbox');
+          
+          // add classes to .selectBox & wrapper
+          $sb.addClass(options.addClasses);
+          for (var i = 0; i < listc.length; i++) {
+            if ($se.hasClass(listc[i])) $sb.addClass(listc[i]);
+          };
+          $w.addClass(options.addWrapClasses);
+
+          // do dropdown list 
+          $u = $sb.find('ul');
+          $(this).children('option').each(function(i) {
+            $('<li data-value='+$(this).val()+'>'+$(this).text()+'</li>').appendTo($u);
+          });
+          $li = $u.find('li');
+
+          // set default label value
+          var i = 0;
+          if (!$se.attr('multiple')) {
+            if (typeof options.allLabel == 'string') {
+              $lb.html(allLabel);        
+            } else if (options.allLabel){
+              $lb.text(l);
+            } else {
+              l = this.options[0].text;
+              if (this.selectedIndex >= 0) {
+                $lb.text(this.options[this.selectedIndex].text);
+                i = this.selectedIndex;
+              };
+            }
+            $li.eq(i).addClass('selected');
+          } else {
+            $li.eq(this.selectedIndex).addClass('selected');
+            $se.data('lastChecked',$li.eq(this.selectedIndex));
+            $('<span class="item" data-value="'+$se.val()+'">'+this.options[this.selectedIndex].text+'</span>').appendTo($lb);
+          };
+
+         // max dropbox height
+          if(typeof options.height == 'number') $dd.css({'max-height':options.height+'px','overflow':'auto'});
+          
+          // hide select & label
+          $(this).css(hide?{'display':'none'}:{});
+          $lbs.css((hide === 'all')?{'display':'none'}:{});
+
+          // add click events
+          if ( !$w.is($wo) ){
+            $sb = $w.find(selectBox);
+            $(ec).off('click.EC'+selectBox+'.select');
+            $(ec).on('click.EC'+selectBox+'.select',{elm: $(ec),sb: selectBox}, handClickEC);
+            $sb.off('click.SB.select');
+            $sb.on('click.SB.select',{elm: $sb, se: $se}, handClickSB);
+            $wo = !$wo?$w:$wo.add($w);            
+          };
+        } 
+
+        // relation to select (change select value)
+        $li.on('click.Li.select', {elm: $sb, al: options.allLabel, label: l, fun: onSelectChangedBefore}, handClickLi);     
+      
+        // $(this).on('click',function() {
+        //   console.log($(this));
+        // });
+      });    
+
+      return $(this);
+    },
+    refresh : function(options) {
+      this.each(function(i){
+        var options = $(this).data('select'),
+          selectBox = options.selectBox,
+          ec = options.eventContainer,
+          $se = $(this); 
+        $w = $(this).closest('.wrap-sb');
+        if ( $w && $w.hasClass('wrap-sb') ) {
+          var $sb = $w.find(selectBox),
+            $lbs = $w.find('label'),
+            $lb = $sb.find('.label'), $u = $sb.find('ul'),
+            l = $lbs.length? $lbs.text().trim():'';
+          $lb.children().remove();
+          $u.find('li').remove();
+          $se.children('option').each(function(i) {
+            this.selected = false;
+            $('<li data-value='+$(this).val()+'>'+$(this).text()+'</li>').appendTo($u);
+            if ( !$se.attr('multiple') && i==0 ) {
+              this.selected = true;
+              this.selectedIndex = 0;
+              $se[0].value = $(this).text();
+            } else this.selected = false;
+          });
+          var $li = $u.find('li');
+          // set default label value
+          var i = 0;
+          if (!$se.attr('multiple')) {
+            if (typeof options.allLabel == 'string') {
+              $lb.html(allLabel);        
+            } else if (options.allLabel){
+              $lb.text(l);
+            } else {
+              l = this.options[0].text;
+              $lb.text(this.options[0].text);
+            }
+          } else {
+            $se.data('lastChecked',$li.eq(-1));
+          };
+        }; 
+        // relation to select (change select value)
+        if ( $li.length )  $li.on('click.Li.select', {elm: $sb, al: options.allLabel, label: l}, handClickLi);     
+      });
+    },    
+    remove : function(options) {
+      this.each(function(i){
+        var options = $(this).data('select'),
+          selectBox = options.selectBox,
+          ec = options.eventContainer,
+          $se = $(this), $w = $(this).closest('.wrap-sb');
+        if ( $w && $w.hasClass('wrap-sb') ) {
+          var $lbs = $w.find('label'),
+            $sb = $w.find(selectBox);
+          $sb.off('click.SB.select').remove();
+          $se.add($lbs).unwrap();
+          $(ec).off('click.EC'+selectBox+'.select');
+        }
+      });
+    }
+  };
+
+  $.fn.select = function( method ) {
+    if ( methods[method] ) {
+      return methods[ method ].apply( this, Array.prototype.slice.call( arguments, 1 ));
+    } else if ( typeof method === 'object' || ! method ) {
+      return methods.init.apply( this, arguments );
+    } else {
+      $.error( 'Method with the name ' +  method + ' does not exist for jQuery.select.js' );
+    } 
+  };
+
+})(jQuery);

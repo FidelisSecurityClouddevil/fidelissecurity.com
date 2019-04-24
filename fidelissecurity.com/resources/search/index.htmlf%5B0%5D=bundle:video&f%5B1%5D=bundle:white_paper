@@ -1,0 +1,1401 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr"
+  xmlns:og="http://ogp.me/ns#"
+  xmlns:article="http://ogp.me/ns/article#"
+  xmlns:book="http://ogp.me/ns/book#"
+  xmlns:profile="http://ogp.me/ns/profile#"
+  xmlns:video="http://ogp.me/ns/video#"
+  xmlns:product="http://ogp.me/ns/product#"
+  xmlns:content="http://purl.org/rss/1.0/modules/content/"
+  xmlns:dc="http://purl.org/dc/terms/"
+  xmlns:foaf="http://xmlns.com/foaf/0.1/"
+  xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#"
+  xmlns:sioc="http://rdfs.org/sioc/ns#"
+  xmlns:sioct="http://rdfs.org/sioc/types#"
+  xmlns:skos="http://www.w3.org/2004/02/skos/core#"
+  xmlns:xsd="http://www.w3.org/2001/XMLSchema#">
+
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<link rel="shortcut icon" href="https://fidelissecurity.com/sites/all/themes/fidelis2016/favicons/favicon.ico" type="image/vnd.microsoft.icon" />
+<meta name="generator" content="Drupal 7 (http://drupal.org)" />
+<link rel="canonical" href="https://fidelissecurity.com/resources/search" />
+<link rel="shortlink" href="https://fidelissecurity.com/resources/search" />
+<meta property="og:site_name" content="Fidelis Cybersecurity" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://fidelissecurity.com/resources/search" />
+<meta property="og:title" content="Resource Center" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Resource Center | Fidelis Cybersecurity</title>
+  <link rel="apple-touch-icon" sizes="57x57" href="/sites/all/themes/fidelis2016/favicons/apple-touch-icon-57x57.png">
+  <link rel="apple-touch-icon" sizes="60x60" href="/sites/all/themes/fidelis2016/favicons/apple-touch-icon-60x60.png">
+  <link rel="apple-touch-icon" sizes="72x72" href="/sites/all/themes/fidelis2016/favicons/apple-touch-icon-72x72.png">
+  <link rel="apple-touch-icon" sizes="76x76" href="/sites/all/themes/fidelis2016/favicons/apple-touch-icon-76x76.png">
+  <link rel="apple-touch-icon" sizes="114x114" href="/sites/all/themes/fidelis2016/favicons/apple-touch-icon-114x114.png">
+  <link rel="apple-touch-icon" sizes="120x120" href="/sites/all/themes/fidelis2016/favicons/apple-touch-icon-120x120.png">
+  <link rel="apple-touch-icon" sizes="144x144" href="/sites/all/themes/fidelis2016/favicons/apple-touch-icon-144x144.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/sites/all/themes/fidelis2016/favicons/apple-touch-icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/sites/all/themes/fidelis2016/favicons/apple-touch-icon-180x180.png">
+  <link rel="icon" type="image/png" href="/sites/all/themes/fidelis2016/favicons/favicon-32x32.png" sizes="32x32">
+  <link rel="icon" type="image/png" href="/sites/all/themes/fidelis2016/favicons/android-chrome-36x36.png" sizes="36x36">
+  <link rel="icon" type="image/png" href="/sites/all/themes/fidelis2016/favicons/android-chrome-48x48.png" sizes="48x48">
+  <link rel="icon" type="image/png" href="/sites/all/themes/fidelis2016/favicons/android-chrome-72x72.png" sizes="72x72">
+  <link rel="icon" type="image/png" href="/sites/all/themes/fidelis2016/favicons/android-chrome-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/sites/all/themes/fidelis2016/favicons/android-chrome-144x144.png" sizes="144x144">
+  <link rel="icon" type="image/png" href="/sites/all/themes/fidelis2016/favicons/android-chrome-192x192.png" sizes="192x192">
+  <link rel="icon" type="image/png" href="/sites/all/themes/fidelis2016/favicons/favicon-96x96.png" sizes="96x96">
+  <link rel="icon" type="image/png" href="/sites/all/themes/fidelis2016/favicons/favicon-16x16.png" sizes="16x16">
+  <link rel="manifest" href="/sites/all/themes/fidelis2016/favicons/manifest.json">
+  <link type="text/css" rel="stylesheet" href="https://fidelissecurity.com/sites/default/files/css/css_lQaZfjVpwP_oGNqdtWCSpJT1EMqXdMiU84ekLLxQnc4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://fidelissecurity.com/sites/default/files/css/css_NT6Pr87UBQVVSPvFZakqSHQDdVN3zoWsfmDTi3iizOQ.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://fidelissecurity.com/sites/default/files/css/css_LUgBR2fJwzp-mZ-xBAX0m8JVlpgyakDbN_s7RleLAD4.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://fidelissecurity.com/sites/default/files/css/css_DXCUziM9_L8XJYCtB99ujDD-1M1mhFWGGdkyhGdIx-g.css" media="all" />
+<link type="text/css" rel="stylesheet" href="https://fidelissecurity.com/sites/default/files/css/css_ehyZ54tVOFLEyuj0rivq9wazFyCIIu1N6W3zGdIJJoU.css" media="all" />
+  <!--[if lte IE 9]>
+  <link rel="stylesheet" href="/sites/all/themes/fidelis2016/css/ie-lte-9.css" media="all" />
+  <![endif]-->
+  <!--[if lte IE 8]>
+  <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+  <link rel="stylesheet" href="/sites/all/themes/fidelis2016/css/no-query.css" media="all" />
+  <link rel="stylesheet" href="/sites/all/themes/fidelis2016/css/ie-lte-8.css" media="all" />
+  <![endif]-->
+
+  <!--[if lte IE 7]>
+  <link rel="stylesheet" href="/sites/all/themes/fidelis2016/css/ie-lte-7.css" media="all" />
+  <![endif]-->
+  <script type="text/javascript" src="/sites/all/themes/fidelis2016/assets/js/vendor/modernizr-custom.js"></script>
+  <script type="text/javascript" src="/sites/all/themes/fidelis2016/assets/js/vendor/fontfaceobserver.js"></script>
+    <script type="text/javascript">
+      (function() {
+        document.documentElement.className += " wf-inactive"; 
+    
+        // Optimization for Repeat Views
+        if( sessionStorage.foutFontsLoaded ) {
+          document.documentElement.classList.remove("wf-inactive");
+          document.documentElement.classList.add("wf-active");
+          return;
+        }
+    
+        var fontA = new FontFaceObserver('DIN Next', {
+            weight: 'normal',
+            style: 'normal'
+          });
+        var fontB = new FontFaceObserver('DIN Next', {
+            weight: 'normal',
+            style: 'normal'
+          });
+        var fontC = new FontFaceObserver('DIN Next', {
+            weight: 400,
+            style: 'italic'
+          });
+        var fontD = new FontFaceObserver('DIN Next', {
+            weight: 400,
+            style: 'normal'
+          });
+        var fontE = new FontFaceObserver('DIN Next', {
+            weight: 'bold',
+            style: 'normal'
+          });
+    
+        Promise.all([fontA.load(), fontB.load(), fontC.load(), fontD.load(), fontE.load()]).then(function () {
+          document.documentElement.classList.remove("wf-inactive");
+          document.documentElement.classList.add("wf-active");
+    
+          // Optimization for Repeat Views
+          sessionStorage.foutFontsLoaded = true;
+        });
+      })();
+    </script>
+  <!-- Site Verification -->
+  <meta name="google-site-verification" content="Xt9PRG_7quEigkLJf-YNVjrUxZOESPsWrraRNCRR6CA" />
+  <meta name="google-site-verification" content="FVZ2CEblg-nT-RQDnYzYPdyz9WGQGgphAk96LldOW8A" />
+  <meta name="msvalidate.01" content="3269934155CEF2C15973D293DE678355" />
+  <!-- End Site Verification -->    
+</head>
+<body class="html not-front not-logged-in one-sidebar sidebar-first page-resources page-resources-search no-js" >
+  <noscript aria-hidden="true"><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-W3LCQ9S" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager">Google Tag Manager</iframe></noscript>  <div class="page">
+  <a href="#main-content" id="skip-to-main-content" class="element-invisible element-focusable">Skip to main content</a>
+
+  <header role="banner" class="site-banner" id="banner">
+    <div class="site-banner__top-nav">     <div class="block block-menu static-header" style="position:initial;">
+  <nav class="nav-top" id="nav_top" role="navigation" aria-label="Callout">
+        <div class="content">
+      <ul class="nav-top__list"><li class="first leaf nav-top__list__demo"><a href="/schedule-demo" target="_self"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17 13"><style>.icon-laptop0{clip-path:url(#SVGID_2_);fill:#0a2f54}.icon-laptop1{clip-path:url(#SVGID_4_);fill:#0a2f54}.icon-laptop2,.icon-laptop3{display:none;fill:none;stroke-miterlimit:10}.icon-laptop2{stroke-width:.5;stroke:#0a2f54}.icon-laptop3{stroke:#fff}</style><defs><path id="SVGID_1_" d="M16 11.8v.5c0 .4-.3.7-.7.7H1.7c-.4 0-.7-.3-.7-.7v-.5-.1l.9-2.3V2.2c0-.7.6-1.2 1.2-1.2h10.8c.6 0 1.2.5 1.2 1.2v7.3l.9 2.3zM2.4 2.2v7.2h12.2V2.2c0-.4-.3-.7-.7-.7H3.1c-.4 0-.7.3-.7.7zm-.1 7.6l-.7 1.8h5.1l.4-.8c0-.1.1-.1.2-.1h2.3c.1 0 .2 0 .2.1l.4.8h5.1l-.8-1.8H2.3zm7.5 1.8l-.2-.5H7.5l-.2.5h2.5zm5.7.7v-.2H1.5v.2c0 .1.1.2.2.2h13.6c.1 0 .2-.1.2-.2z"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" overflow="visible"/></clipPath><path class="icon-laptop0" d="M-4-4h25v22H-4z"/><defs><path id="SVGID_3_" d="M13.8 2H3.2c-.1 0-.2.1-.2.2v6.5c0 .2.1.3.2.3h10.5c.2 0 .3-.1.3-.2V2.2c0-.1-.1-.2-.2-.2zM3.5 8.5h10.1v-6H3.5v6z"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" overflow="visible"/></clipPath><path class="icon-laptop1" d="M-2-3h21v17H-2z"/><path class="icon-laptop2" d="M11.6 8.8c-.1-.1-.3-.2-.5-.2-.1 0-.3 0-.4.1l-.8.5c-.1-.1-.7-.4-1.8-1.7-1.2-1.4-1.5-2-1.5-2.1l.6-.8c.2-.3.2-.7 0-1L5.9 2.2c-.2-.1-.4-.2-.6-.2-.2 0-.4.1-.5.3l-.3.4c-.4.4-.5.9-.5 1.4 0 .5.1 1 .4 1.6.4 1 1.2 2.2 2.1 3.3.5.6 1.3 1.4 2.2 2 .9.6 1.7 1 2.4 1 .4 0 .8-.1 1.2-.4l.4-.3c.2-.1.3-.3.3-.5s0-.4-.2-.6l-1.2-1.4z"/><path class="icon-laptop2" d="M9.8 2l4.5 9.1c.2.5 0 1.1-.5 1.3-.1.1-.3.1-.4.1h-9c-.6 0-1-.4-1-1 0-.2 0-.3.1-.4L8 2c.2-.5.8-.7 1.3-.5.2.2.4.3.5.5z"/><path class="icon-laptop3" d="M-1.5 32.1l-5.6-5.9c-.5-.5-1.2-.6-1.8-.4 1.8-2.1 1.7-5.3-.3-7.3-2-2.1-5.3-2.1-7.3 0s-2 5.5 0 7.6c1.8 1.9 4.7 2.1 6.8.5-.3.6-.2 1.4.3 2l5.6 5.9c.6.7 1.7.7 2.3 0 .7-.7.7-1.7 0-2.4"/><path class="icon-laptop2" d="M9.5 4.1c.1 0 .1 0 .1.1L9.4 9c0 .1 0 .1-.1.1h-.6c-.1 0-.1 0-.1-.1l-.3-4.8c0-.1 0-.1.1-.1h1.1zm0 5.7c.1 0 .1 0 .1.1V11c0 .1 0 .1-.1.1h-1c-.1 0-.1 0-.1-.1V9.9c0-.1 0-.1.1-.1h1z"/><path class="icon-laptop2" d="M9.8 2l4.5 9.1c.2.5 0 1.1-.5 1.3-.1.1-.3.1-.4.1h-9c-.6 0-1-.4-1-1 0-.2 0-.3.1-.4L8 2c.2-.5.8-.7 1.3-.5.2.2.4.3.5.5z"/></svg>Schedule a Demo</a></li>
+<li class="leaf nav-top__list__report"><a href="/emergency-incident-response" target="_self"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17 13"><style>.icon-alert0{display:none}.icon-alert1{display:inline}.icon-alert2,.icon-alert3{display:inline;clip-path:url(#SVGID_2_);fill:#0a2f54}.icon-alert3{clip-path:url(#SVGID_4_)}.icon-alert4{display:none;stroke:#0a2f54;stroke-width:.5}.icon-alert4,.icon-alert5,.icon-alert6{fill:none;stroke-miterlimit:10}.icon-alert5{display:none;stroke:#fff}.icon-alert6{stroke:#0a2f54;stroke-width:.5}</style><g class="icon-alert0"><defs><path id="SVGID_1_" d="M16 11.8v.5c0 .4-.3.7-.7.7H1.7c-.4 0-.7-.3-.7-.7v-.6l.9-2.3V2.2c0-.7.6-1.2 1.2-1.2h10.8c.6 0 1.2.5 1.2 1.2v7.3l.9 2.3zM2.4 2.2v7.2h12.2V2.2c0-.4-.3-.7-.7-.7H3.1c-.4 0-.7.3-.7.7zm-.1 7.6l-.7 1.8h5.1l.4-.8c0-.1.1-.1.2-.1h2.3c.1 0 .2 0 .2.1l.4.8h5.1l-.8-1.8H2.3zm7.5 1.8l-.2-.5H7.5l-.2.5h2.5zm5.7.7v-.2h-14v.2c0 .1.1.2.2.2h13.6c.1 0 .2-.1.2-.2z"/></defs><clipPath id="SVGID_2_" class="icon-alert1"><use xlink:href="#SVGID_1_" overflow="visible"/></clipPath><path class="icon-alert2" d="M-4-4h25v22H-4z"/></g><g class="icon-alert0"><defs><path id="SVGID_3_" d="M13.8 2H3.2c-.1 0-.2.1-.2.2v6.5c0 .2.1.3.2.3h10.5c.2 0 .3-.1.3-.2V2.2c0-.1-.1-.2-.2-.2zM3.5 8.5h10.1v-6H3.5v6z"/></defs><clipPath id="SVGID_4_" class="icon-alert1"><use xlink:href="#SVGID_3_" overflow="visible"/></clipPath><path class="icon-alert3" d="M-2-3h21v17H-2z"/></g><path class="icon-alert4" d="M11.6 8.8c-.1-.1-.3-.2-.5-.2-.1 0-.3 0-.4.1l-.8.5c-.1-.1-.7-.4-1.8-1.7-1.2-1.4-1.5-2-1.5-2.1l.6-.8c.2-.3.2-.7 0-1L5.9 2.2c-.2-.1-.4-.2-.6-.2-.2 0-.4.1-.5.3l-.3.4c-.4.4-.5.9-.5 1.4 0 .5.1 1 .4 1.6.4 1 1.2 2.2 2.1 3.3.5.6 1.3 1.4 2.2 2 .9.6 1.7 1 2.4 1 .4 0 .8-.1 1.2-.4l.4-.3c.2-.1.3-.3.3-.5s0-.4-.2-.6l-1.2-1.4z"/><path class="icon-alert4" d="M9.8 2l4.5 9.1c.2.5 0 1.1-.5 1.3-.1.1-.3.1-.4.1h-9c-.6 0-1-.4-1-1 0-.2 0-.3.1-.4L8 2c.2-.5.8-.7 1.3-.5.2.2.4.3.5.5z"/><path class="icon-alert5" d="M-1.5 32.1l-5.6-5.9c-.5-.5-1.2-.6-1.8-.4 1.8-2.1 1.7-5.3-.3-7.3-2-2.1-5.3-2.1-7.3 0s-2 5.5 0 7.6c1.8 1.9 4.7 2.1 6.8.5-.3.6-.2 1.4.3 2l5.6 5.9c.6.7 1.7.7 2.3 0 .7-.7.7-1.7 0-2.4"/><path class="icon-alert6" d="M9.5 4.1c.1 0 .1 0 .1.1L9.4 9c0 .1 0 .1-.1.1h-.6c-.1 0-.1 0-.1-.1l-.3-4.8c0-.1 0-.1.1-.1h1.1zm0 5.7c.1 0 .1 0 .1.1V11c0 .1 0 .1-.1.1h-1c-.1 0-.1 0-.1-.1V9.9c0-.1 0-.1.1-.1h1z"/><path class="icon-alert6" d="M9.8 2l4.5 9.1c.2.5 0 1.1-.5 1.3-.1.1-.3.1-.4.1h-9c-.6 0-1-.4-1-1 0-.2 0-.3.1-.4L8 2c.2-.5.8-.7 1.3-.5.2.2.4.3.5.5z"/></svg>Report an Incident</a></li>
+<li class="last leaf nav-top__list__emergency"><a href="/contact-us" target="_self"><svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 17 13"><style>.icon-phone0{display:none}.icon-phone1{display:inline}.icon-phone2{clip-path:url(#SVGID_2_);fill:#0a2f54}.icon-phone3{clip-path:url(#SVGID_4_);fill:#0a2f54}.icon-phone4{fill:none;stroke:#0a2f54;stroke-width:.5;stroke-miterlimit:10}.icon-phone5,.icon-phone6{display:none;fill:none;stroke-miterlimit:10}.icon-phone5{stroke-width:.5;stroke:#0a2f54}.icon-phone6{stroke:#fff}</style><g class="icon-phone0"><g class="icon-phone1"><defs><path id="SVGID_1_" d="M16 11.8v.5c0 .4-.3.7-.7.7H1.7c-.4 0-.7-.3-.7-.7v-.6l.9-2.3V2.2c0-.7.6-1.2 1.2-1.2h10.8c.6 0 1.2.5 1.2 1.2v7.3l.9 2.3zM2.4 2.2v7.2h12.2V2.2c0-.4-.3-.7-.7-.7H3.1c-.4 0-.7.3-.7.7zm-.1 7.6l-.7 1.8h5.1l.4-.8c0-.1.1-.1.2-.1h2.3c.1 0 .2 0 .2.1l.4.8h5.1l-.8-1.8H2.3zm7.5 1.8l-.2-.5H7.5l-.2.5h2.5zm5.7.7v-.2h-14v.2c0 .1.1.2.2.2h13.6c.1 0 .2-.1.2-.2z"/></defs><clipPath id="SVGID_2_"><use xlink:href="#SVGID_1_" overflow="visible"/></clipPath><path class="icon-phone2" d="M-4-4h25v22H-4z"/></g><g class="icon-phone1"><defs><path id="SVGID_3_" d="M13.8 2H3.2c-.1 0-.2.1-.2.2v6.5c0 .2.1.3.2.3h10.5c.2 0 .3-.1.3-.2V2.2c0-.1-.1-.2-.2-.2zM3.5 8.5h10.1v-6H3.5v6z"/></defs><clipPath id="SVGID_4_"><use xlink:href="#SVGID_3_" overflow="visible"/></clipPath><path class="icon-phone3" d="M-2-3h21v17H-2z"/></g></g><path class="icon-phone4" d="M11.6 8.8c-.1-.1-.3-.2-.5-.2-.1 0-.3 0-.4.1l-.8.5c-.1-.1-.7-.4-1.8-1.7-1.2-1.4-1.5-2-1.5-2.1l.6-.8c.2-.3.2-.7 0-1L5.9 2.2c-.2-.1-.4-.2-.6-.2-.2 0-.4.1-.5.3l-.3.4c-.4.4-.5.9-.5 1.4 0 .5.1 1 .4 1.6.4 1 1.2 2.2 2.1 3.3.5.6 1.3 1.4 2.2 2 .9.6 1.7 1 2.4 1 .4 0 .8-.1 1.2-.4l.4-.3c.2-.1.3-.3.3-.5s0-.4-.2-.6l-1.2-1.4z"/><path class="icon-phone5" d="M9.8 2l4.5 9.1c.2.5 0 1.1-.5 1.3-.1.1-.3.1-.4.1h-9c-.6 0-1-.4-1-1 0-.2 0-.3.1-.4L8 2c.2-.5.8-.7 1.3-.5.2.2.4.3.5.5z"/><path class="icon-phone6" d="M-1.5 32.1l-5.6-5.9c-.5-.5-1.2-.6-1.8-.4 1.8-2.1 1.7-5.3-.3-7.3-2-2.1-5.3-2.1-7.3 0s-2 5.5 0 7.6c1.8 1.9 4.7 2.1 6.8.5-.3.6-.2 1.4.3 2l5.6 5.9c.6.7 1.7.7 2.3 0 .7-.7.7-1.7 0-2.4"/><path class="icon-phone5" d="M9.5 4.1c.1 0 .1 0 .1.1L9.4 9c0 .1 0 .1-.1.1h-.6c-.1 0-.1 0-.1-.1l-.3-4.8c0-.1 0-.1.1-.1h1.1zm0 5.7c.1 0 .1 0 .1.1V11c0 .1 0 .1-.1.1h-1c-.1 0-.1 0-.1-.1V9.9c0-.1 0-.1.1-.1h1z"/><path class="icon-phone5" d="M9.8 2l4.5 9.1c.2.5 0 1.1-.5 1.3-.1.1-.3.1-.4.1h-9c-.6 0-1-.4-1-1 0-.2 0-.3.1-.4L8 2c.2-.5.8-.7 1.3-.5.2.2.4.3.5.5z"/></svg>Request a Call</a></li>
+</ul>    </div>
+  </nav>
+  </div>
+ </div>
+              <div class="top_nav_region">
+          <div class="content-area">
+              <article id="block-menu-menu-top-nav" class="block block-menu">
+          <div class="content">
+    <ul class="menu"><li class="first leaf"><a href="/threatgeek" title="">Blog</a></li>
+<li class="leaf"><a href="/contact-us" title="">Contact</a></li>
+<li class="leaf"><a href="/search/site" title="">Search</a></li>
+<li class="leaf"><a href="/network/trial" title="Free 15-Day Trial of Fidelis Network®">FREE TRIAL</a></li>
+<li class="last leaf"><a href="/schedule-demo" title="">Schedule demo</a></li>
+</ul>  </div>
+</article>
+          </div>
+        </div>
+          <div class="content-area site-banner__content-area clearfix">
+      <div class="site-banner__logo mb-0">
+        <a href="/" title="Home" rel="home">
+          <svg id="Layer_1" xmlns="http://www.w3.org/2000/svg" width="378" height="139.4" viewBox="0 0 378 139.4"><path class="st0" d="M188.9 121.3c0-3.3.1-4.5.6-5.9 1.1-3.5 3.9-5.3 7.7-5.3 3.7 0 6.3 1.8 7.5 4.8.1.2 0 .3-.2.4l-3.5 1.6c-.2.1-.3 0-.4-.2-.6-1.4-1.6-2.4-3.4-2.4-1.7 0-2.8.9-3.2 2.4-.3.8-.3 1.6-.3 4.6 0 3.1.1 3.8.3 4.6.5 1.5 1.6 2.4 3.2 2.4 1.8 0 2.8-1 3.4-2.4.1-.2.3-.3.4-.2l3.5 1.6c.2.1.3.2.2.4-1.2 3-3.9 4.8-7.5 4.8-3.8 0-6.6-1.8-7.7-5.3-.5-1.4-.6-2.5-.6-5.9zM207.6 137.9c-.2 0-.3-.1-.3-.3v-3.1c0-.2.1-.3.3-.3h.7c1.1 0 1.7-.4 2.1-1.6l.4-1.1-5.7-14.3c-.1-.2.1-.3.3-.3h4.1c.2 0 .3.1.4.3l3.1 8.9h.1l2.9-8.9c.1-.2.2-.3.4-.3h3.9c.2 0 .3.1.3.3l-6.2 16.4c-1.3 3.4-2.7 4.4-5.4 4.4h-1.4zM226.3 130.7v1.1c0 .2-.1.3-.3.3h-3.8c-.2 0-.3-.1-.3-.3v-21c0-.2.1-.3.3-.3h3.8c.2 0 .3.1.3.3v7.3c.7-1 2-1.8 4-1.8 2.6 0 4.4 1.2 5.2 3.7.4 1.2.5 2.4.5 4.4 0 2-.2 3.1-.5 4.4-.8 2.4-2.6 3.7-5.2 3.7-2 0-3.3-.7-4-1.8zm5-3.6c.2-.6.3-1.3.3-2.6s-.1-2-.3-2.6c-.3-1.1-1.2-1.7-2.4-1.7s-2 .5-2.4 1.7c-.2.6-.3 1.3-.3 2.6s.1 2 .3 2.6c.3 1.1 1.2 1.7 2.4 1.7 1.2-.1 2-.6 2.4-1.7zM238.1 128.1c-.3-1-.5-2.1-.5-3.7s.2-2.7.5-3.7c.9-2.8 3.3-4.4 6.6-4.4 3.4 0 5.8 1.6 6.6 4.3.3 1 .5 2.1.5 4.7 0 .2-.1.3-.3.3h-9.3c-.1 0-.2.1-.2.2 0 .3.1.6.2.9.4 1.3 1.6 2 3.2 2 1.5 0 2.6-.5 3.5-1.4.2-.1.3-.2.4 0l2.1 2c.2.1.2.3 0 .4-1.5 1.6-3.7 2.6-6.6 2.6-3.3.2-5.8-1.4-6.7-4.2zm9.2-5.3c.1 0 .2-.1.2-.2 0-.5-.1-.8-.2-1.1-.3-1-1.3-1.7-2.6-1.7s-2.2.6-2.6 1.7c-.1.3-.2.7-.2 1.1 0 .1.1.2.2.2h5.2zM254.5 132.2c-.2 0-.3-.1-.3-.3v-14.8c0-.2.1-.3.3-.3h3.8c.2 0 .3.1.3.3v1.3c.7-1.2 2.1-2 4-2 1 0 2 .3 2.7.9.2.1.2.3.1.4l-1.8 3.2c-.1.2-.3.2-.4.1-.7-.5-1.5-.7-2.2-.7-1.7.1-2.4 1.3-2.4 3.3v8.1c0 .2-.1.3-.3.3h-3.8zM265.3 130.1c-.1-.1-.1-.3 0-.4l2.1-2.3c.1-.1.3-.1.4 0 1.4 1 3.1 1.7 4.7 1.7s2.4-.6 2.4-1.5c0-.7-.4-1.2-2.2-1.3l-1.7-.3c-3.2-.3-5-1.9-5-4.7 0-3 2.3-4.9 6.3-4.9 2.6 0 4.8.8 6.2 1.9.1.1.2.3 0 .5l-1.8 2.2c-.1.2-.3.2-.4.1-1-.7-2.6-1.2-4.2-1.2-1.3 0-1.9.5-1.9 1.3 0 .7.4 1.1 2.1 1.3l1.7.2c3.6.3 5.1 2.1 5.1 4.7 0 3.1-2.5 5.3-6.9 5.3-3.1-.2-5.4-1.3-6.9-2.6zM281.2 128.1c-.3-1-.5-2.1-.5-3.7s.2-2.7.5-3.7c.9-2.8 3.3-4.4 6.6-4.4 3.4 0 5.8 1.6 6.6 4.3.3 1 .5 2.1.5 4.7 0 .2-.1.3-.3.3h-9.3c-.1 0-.2.1-.2.2 0 .3.1.6.2.9.4 1.3 1.6 2 3.2 2 1.5 0 2.6-.5 3.5-1.4.2-.1.3-.2.4 0l2.1 2c.2.1.2.3 0 .4-1.5 1.6-3.7 2.6-6.6 2.6-3.4.2-5.8-1.4-6.7-4.2zm9.1-5.3c.1 0 .2-.1.2-.2 0-.5-.1-.8-.2-1.1-.3-1-1.3-1.7-2.6-1.7s-2.2.6-2.6 1.7c-.1.3-.2.7-.2 1.1 0 .1.1.2.2.2h5.2zM297.1 128.1c-.3-.9-.5-2.1-.5-3.7s.2-2.8.5-3.7c.9-2.9 3.4-4.4 6.6-4.4 2.6 0 4.7 1.2 5.8 2.9.1.2.1.3-.1.4l-2.8 1.8c-.2.1-.3.1-.5-.1-.7-.9-1.3-1.3-2.4-1.3-1.2 0-2 .5-2.4 1.7-.2.6-.3 1.4-.3 2.6s.1 2 .3 2.6c.3 1.1 1.2 1.7 2.4 1.7 1.1 0 1.8-.4 2.4-1.3.1-.2.3-.2.5-.1l2.8 1.8c.2.1.2.3.1.4-1.1 1.7-3.2 2.9-5.8 2.9-3.2.2-5.7-1.3-6.6-4.2zM321 132.2c-.2 0-.3-.1-.3-.3v-1.1c-.8 1-2 1.8-3.9 1.8-3.4 0-5.2-2.4-5.2-5.7v-9.7c0-.2.1-.3.3-.3h3.8c.2 0 .3.1.3.3v8.8c0 1.7.8 2.8 2.4 2.8 1.5 0 2.4-1.1 2.4-2.8v-8.8c0-.2.1-.3.3-.3h3.8c.2 0 .3.1.3.3V132c0 .2-.1.3-.3.3H321zM328.7 132.2c-.2 0-.3-.1-.3-.3v-14.8c0-.2.1-.3.3-.3h3.8c.2 0 .3.1.3.3v1.3c.7-1.2 2.1-2 4-2 1 0 2 .3 2.7.9.2.1.2.3.1.4l-1.8 3.2c-.1.2-.3.2-.4.1-.7-.5-1.5-.7-2.2-.7-1.7.1-2.4 1.3-2.4 3.3v8.1c0 .2-.1.3-.3.3h-3.8zM341.9 114.3c-.2 0-.3-.1-.3-.3v-3.1c0-.2.1-.3.3-.3h3.8c.2 0 .3.1.3.3v3.1c0 .2-.1.3-.3.3h-3.8zm0 17.9c-.2 0-.3-.1-.3-.3v-14.8c0-.2.1-.3.3-.3h3.8c.2 0 .3.1.3.3v14.8c0 .2-.1.3-.3.3h-3.8zM354.8 132.3c-3.6 0-4.9-1.6-4.9-5.1v-7c0-.1-.1-.2-.2-.2h-1c-.2 0-.3-.1-.3-.3v-2.6c0-.2.1-.3.3-.3h1c.1 0 .2-.1.2-.2v-4.1c0-.2.1-.3.3-.3h3.8c.2 0 .3.1.3.3v4.1c0 .1.1.2.2.2h2c.2 0 .3.1.3.3v2.6c0 .2-.1.3-.3.3h-2c-.1 0-.2.1-.2.2v6.8c0 1.1.4 1.5 1.4 1.5h.8c.2 0 .3.1.3.3v3.1c0 .2-.1.3-.3.3h-1.7zM360.4 137.9c-.2 0-.3-.1-.3-.3v-3.1c0-.2.1-.3.3-.3h.7c1.1 0 1.7-.4 2.1-1.6l.4-1.1-5.7-14.3c-.1-.2.1-.3.3-.3h4.1c.2 0 .3.1.4.3l3.1 8.9h.1l2.9-8.9c.1-.2.2-.3.4-.3h3.9c.2 0 .3.1.3.3l-6.2 16.4c-1.3 3.4-2.7 4.4-5.4 4.4h-1.4z"/><g><path class="st0" d="M1.7 72.8v19.9c0 4.7 3.8 8.5 8.5 8.5h9.6c4.7 0 8.5-3.8 8.5-8.5V66.4c0-1.2-.9-2.1-2.1-2.1h-16c-4.7 0-8.5 3.8-8.5 8.5zM55.8 64.3c4.7 0 8.5-3.8 8.5-8.5v-3.1c0-4.7-3.8-8.5-8.5-8.5H30.4c-1.2 0-2.1.9-2.1 2.1v15.8c0 1.2.9 2.1 2.1 2.1l25.4.1zM9.1 44.3h17.1c1.2 0 2.1-.9 2.1-2.1V29.1c0-1.2-.9-2.1-2.1-2.1H9.1c-4.1 0-7.4 3.3-7.4 7.4v2.5c0 4.1 3.3 7.4 7.4 7.4zM62.7 1.7H30.4c-1.2 0-2.1.9-2.1 2.1v21.1c0 1.2.9 2.1 2.1 2.1h32.3c4.7 0 8.5-3.8 8.5-8.5v-8.4c0-4.6-3.8-8.4-8.5-8.4zM299.9 27.4h-8.7c-3.5 0-6.4 2.8-6.4 6.4v61.1c0 3.5 2.8 6.4 6.4 6.4h8.7c3.5 0 6.4-2.8 6.4-6.4V33.8c-.1-3.5-2.9-6.4-6.4-6.4zM290.1 22.8c-2.6 0-4.8-2.1-4.8-4.8V6.4c0-2.6 2.1-4.8 4.8-4.8H301c2.6 0 4.8 2.1 4.8 4.8V18c0 2.6-2.1 4.8-4.8 4.8h-10.9zM163.4 1.6h-8.7c-3.5 0-6.4 2.8-6.4 6.4v26.2c-3.9-4.8-10-7.3-18.1-7.3-12.3 0-20.7 6-24.4 17.3-1.8 5.8-2.5 12.4-2.5 21.3s.7 13.2 2.5 18.9c3.7 11.1 12.3 17.3 24.4 17.3 8.2 0 14.3-2.5 18.2-7.4.5 3.3 3.4 7 6.8 7h12.4c1.2 0 2.1-.9 2.1-2.1V8c.1-3.5-2.8-6.4-6.3-6.4zM148 76.5c-1.7 5.1-5.7 7.9-11.3 7.9-5.8 0-9.7-2.7-11.4-7.9-.8-2.6-1.3-5.6-1.3-12.3s.5-9.6 1.3-12.3c1.6-5.2 5.6-7.9 11.4-7.9 5.7 0 9.7 2.7 11.3 7.9.8 2.6 1.3 5.6 1.3 12.3s-.4 9.7-1.3 12.3zM239.8 87.1l-9.6-9c-.3-.4-1.3-1.3-2.8-.1-4.4 4.1-9.6 6.1-15.8 6.1-7.3 0-12.3-3.2-14.1-9-.4-1.1-.7-2.4-.8-3.7 0-.3.1-.3.3-.3h37.6c2.1 0 3.8-.7 5.1-2 1.6-1.6 2.1-3.9 2.1-5-.2-8.6-1.1-13-2.3-16.9C235.3 34.4 224 27 208.6 27c-15.4 0-26.7 7.4-30.8 20.3-1.6 4.9-2.4 10.2-2.4 17.1 0 6.5.8 11.7 2.5 16.9 4.2 13 15.7 20.5 31.7 20.5 12.4 0 23.2-4.3 30.4-12 .4-.4.6-.9.6-1.4-.1-.5-.4-1-.8-1.3zm-44.1-31c0-2 .2-3.7.8-5.4 1.7-5.1 6.3-8.1 12.3-8.1 6 0 10.6 3 12.3 8.1.5 1.7.8 3.4.8 5.4 0 .9-.5 1.4-1.4 1.4h-23.3c-1 0-1.5-.5-1.5-1.4zM278 84.1h-4.4c-3 0-4.1-2.6-4.1-6.8V8c0-3.5-2.8-6.4-6.4-6.4h-8.7c-3.5 0-6.4 2.8-6.4 6.4v71.4c0 12.4 10 22.4 22.4 22.4h3.3c3.5 0 6.4-2.8 6.4-6.4v-9.2c0-1.2-.9-2.1-2.1-2.1zM352 55.1l-7.7-.9c-8.6-.8-9.3-3-9.3-5.3 0-3.4 3-5.3 8.4-5.3 6.3 0 13.3 2.1 18.8 5.6 1 .6 2 .5 2.7-.4l8.2-10.1c.7-.9.6-2.1-.2-2.9-7.4-5.6-18-8.8-28.9-8.8-18.5 0-29.5 8.6-29.5 23.1 0 12.8 8.3 20.6 23.5 22.1l7.9.9c8 .7 9.6 2.6 9.6 5.6 0 3.9-3.8 6.2-10.4 6.2-7.1 0-15-2.8-21.2-7.6-.9-.8-2-.7-2.8.1L311.7 88c-.8.8-.8 2 0 2.8 4.7 4.1 15.3 11.1 32.4 11.1 19.6 0 31.8-9.5 32-24.7-.1-13.2-8.2-20.6-24.1-22.1z"/><g><path class="st0" d="M90.4 27.4h-8.7c-3.5 0-6.4 2.8-6.4 6.4v61.1c0 3.5 2.8 6.4 6.4 6.4h8.7c3.5 0 6.4-2.8 6.4-6.4V33.8c0-3.5-2.9-6.4-6.4-6.4zM80.6 22.8c-2.6 0-4.8-2.1-4.8-4.8V6.4c0-2.6 2.1-4.8 4.8-4.8h10.9c2.6 0 4.8 2.1 4.8 4.8V18c0 2.6-2.1 4.8-4.8 4.8H80.6z"/></g></g><g><path class="st0" d="M370.1 26c-.8 0-1.6-.1-2.3-.4-.7-.3-1.3-.7-1.9-1.2-.5-.5-.9-1.2-1.2-1.9-.3-.7-.4-1.5-.4-2.3 0-.8.1-1.6.4-2.3.3-.7.7-1.3 1.2-1.9.5-.5 1.2-.9 1.9-1.2.7-.3 1.5-.4 2.3-.4s1.6.1 2.3.4c.7.3 1.3.7 1.9 1.2.5.5.9 1.2 1.2 1.9.3.7.4 1.5.4 2.3 0 .8-.1 1.6-.4 2.3-.3.7-.7 1.3-1.2 1.9-.5.5-1.2.9-1.9 1.2-.7.3-1.5.4-2.3.4zm0-1.2c.7 0 1.3-.1 1.8-.3.6-.2 1-.5 1.5-1 .4-.4.7-.9.9-1.5.2-.6.3-1.2.3-1.9s-.1-1.3-.3-1.8c-.2-.6-.5-1-.9-1.5-.4-.4-.9-.7-1.5-1-.6-.2-1.2-.3-1.8-.3-.7 0-1.3.1-1.8.3-.6.2-1 .5-1.5 1-.4.4-.7.9-.9 1.5-.2.6-.3 1.2-.3 1.8 0 .7.1 1.3.3 1.9.2.6.5 1.1.9 1.5.4.4.9.7 1.5 1 .5.2 1.1.3 1.8.3zm-2.3-1.4c-.1 0-.2-.1-.2-.2v-6c0-.1.1-.2.2-.2h2.7c.8 0 1.4.2 1.8.6.4.4.6.9.6 1.5 0 .9-.4 1.5-1.2 1.8l1.2 2.4c.1.1 0 .2-.2.2h-1.4c-.1 0-.2-.1-.3-.2l-1-2.1h-.7c-.1 0-.1.1-.1.2v2c0 .1-.1.2-.2.2h-1.2zm2.6-3.8c.6 0 .9-.2.9-.7 0-.4-.3-.7-.9-.7h-1c-.1 0-.1 0-.1.1v1.1c0 .1 0 .1.1.1h1z"/></g></svg>        </a>
+      </div>
+      
+<div class="nav-toggle-group">
+  <a class="hamburger hamburger--squeeze" id="menu-toggle" aria-label="Toggle menu" aria-controls="site_nav" href="#site_nav">
+    <span class="hamburger-box">
+      <span class="hamburger-inner"></span>
+    </span>
+    <span class="nav-toggle-group--text">Menu</span>
+  </a>
+  <a href="#site_search_area" class="js-site-search site-search__trigger nav-toggle-search">
+    <span class="is-visually-hidden">Open or close site search</span>
+    <svg id="search-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20"><style>.icon-search{fill:none;stroke-miterlimit:10}</style><path class="icon-search" d="M18.5 16.1l-5.6-5.9c-.5-.5-1.2-.6-1.8-.4 1.8-2.1 1.7-5.3-.3-7.3-2-2.1-5.3-2.1-7.3 0s-2 5.5 0 7.6c1.8 1.9 4.7 2.1 6.8.5-.3.6-.2 1.4.3 2l5.6 5.9c.6.7 1.7.7 2.3 0 .7-.7.7-1.7 0-2.4"/></svg>
+    <div class="search-close is-hidden">
+      <span id="search-close-left"></span>
+      <span id="search-close-right"></span>
+    </div>
+  </a>
+</div>
+
+<nav role="navigation" class="nav" id="site_nav" aria-label="Navigation with dropdown menus (click to expand)">
+  <div class="content">
+    <ul class="nav-menu">
+                                <li class="menu-item menu-item--has-dropdown">
+            <a href="#nav-partners" aria-haspopup="true">
+              Products              <div class='menu-item__toggle'></div>
+            </a>
+            <ul class="sub-menu" id="nav-partners" aria-label="submenu">
+                                                                            <li class="menu-item sub-child-menu">
+                                                    <a href="/products/security-operations-platform" title="">Elevate</a>                          <ul class="sub-menu-child-item" id="nav-partners" aria-label="submenu">
+                                                      <li class="menu-item">
+                                                            <a href="/products/network" title="">Network</a>                            </li>
+                                                      <li class="menu-item">
+                                                            <a href="/products/endpoint" title="">Endpoint</a>                            </li>
+                                                      <li class="menu-item">
+                                                            <a href="/products/deception" title="">Deception</a>                            </li>
+                                                    </ul>
+                        </li>
+                                                                  </ul>
+          </li>
+                                        <li class="menu-item menu-item--has-dropdown">
+            <a href="#nav-partners" aria-haspopup="true">
+              Services              <div class='menu-item__toggle'></div>
+            </a>
+            <ul class="sub-menu" id="nav-partners" aria-label="submenu">
+                                                                              <li class="menu-item">
+                                                    <a href="/services/managed-detection-and-response" title="">Managed Detection and Response</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/services/incident-response" title="">Incident Response</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/services/threat-research" title="">Threat Research</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/services/cybersecurity-assessments" title="">Cybersecurity Assessments</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/services/professional-services" title="">Professional Services</a>                          </li>
+                                                                </ul>
+          </li>
+                                        <li class="menu-item menu-item--has-dropdown">
+            <a href="#nav-partners" aria-haspopup="true">
+              Resources              <div class='menu-item__toggle'></div>
+            </a>
+            <ul class="sub-menu" id="nav-partners" aria-label="submenu">
+                                                                              <li class="menu-item">
+                                                    <a href="/resources/search?f%5B0%5D=bundle%3Acase_study" title="" class="active">Case Studies</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/resources/search?f%5B0%5D=bundle%3Adata_sheet" title="" class="active">Datasheets</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/resources/search?f%5B0%5D=bundle%3Aanalyst_report" title="" class="active">Research and Reports</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/resources/search?f%5B0%5D=bundle%3Avideo" title="" class="active">Videos</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/resources/search?f%5B0%5D=bundle%3Awebinar" title="" class="active">Webinars</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/resources/search?f%5B0%5D=bundle%3Awhite_paper" title="" class="active">White Papers</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/resources/search?f%5B0%5D=bundle%3Afreeware" title="" class="active">Tools and Intel</a>                          </li>
+                                                                </ul>
+          </li>
+                                        <li class="menu-item menu-item--has-dropdown">
+            <a href="#nav-partners" aria-haspopup="true">
+              Partners              <div class='menu-item__toggle'></div>
+            </a>
+            <ul class="sub-menu" id="nav-partners" aria-label="submenu">
+                                                                              <li class="menu-item">
+                                                    <a href="/channel-partners">Channel Partners</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="https://www.fidelissecurity.com/technology-partners" title="">Technology Partners</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/become-partner">Become a Partner</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="https://fideliscybersecurity.channeltivity.com/Preview/Login" title="">Partner Login</a>                          </li>
+                                                                </ul>
+          </li>
+                                        <li class="menu-item menu-item--has-dropdown">
+            <a href="#nav-partners" aria-haspopup="true">
+              Company              <div class='menu-item__toggle'></div>
+            </a>
+            <ul class="sub-menu" id="nav-partners" aria-label="submenu">
+                                                                              <li class="menu-item">
+                                                    <a href="/about">About</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/leadership">Leadership</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/careers">Careers</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/press">Press</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/events">Events</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/customers" title="">Customers</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/contact-us">Contact Us</a>                          </li>
+                                                                </ul>
+          </li>
+                                        <li class="menu-item menu-item--has-dropdown">
+            <a href="#nav-partners" aria-haspopup="true">
+              Customer Support              <div class='menu-item__toggle'></div>
+            </a>
+            <ul class="sub-menu" id="nav-partners" aria-label="submenu">
+                                                                              <li class="menu-item">
+                                                    <a href="/customer-support/login">Customer Login</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="/contact-us">Contact</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="https://www.fidelissecurity.com/support_opt-in" title="">Support Notifications</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="https://www.fidelissecurity.com/training" title="">Training</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="https://www.fidelissecurity.com/customer-support/maintenance-agreement" title="">Maintenance and Support</a>                          </li>
+                                                                                      <li class="menu-item">
+                                                    <a href="https://www.fidelissecurity.com/customer-support/product-lifecycle" title="">Product and Technology Lifecycle</a>                          </li>
+                                                                </ul>
+          </li>
+                  </ul>
+  </div>
+</nav>
+      <div class="site-search" id="site_search">
+  <a href="#site_search_area" class="js-site-search site-search__trigger" role="button" aria-controls="site_search_area" aria-expanded="false">
+    <span class="is-visually-hidden">
+      Open Site Search
+    </span>
+  </a>
+  <div class="site-search__content card" id="site_search_area">
+    <label for="site_search_field" class="is-visually-hidden">
+      Search Site:
+    </label>
+    <div class="position-relative" role="search">
+      <form class="site-search__form" action="/resources/search?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper" method="post" id="search-block-form" accept-charset="UTF-8"><div><input title="Enter the terms you wish to search for." id="site_search_field" placeholder="Search" type="text" name="search_block_form" value="" size="40" maxlength="128" class="form-text" /><button alt="Search" class="btn form-submit" type="submit" id="edit-submit--2" name="op" value=""></button><div class="url-textfield"><div class="form-item form-type-textfield form-item-url">
+  <label for="edit-url--2">Leave this field blank </label>
+ <input autocomplete="off" type="text" id="edit-url--2" name="url" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div><input type="hidden" name="form_build_id" value="form-4ny_P0EyV3rL7a50b8nOAtZaTGBlf3CHNf1Gj1NpEfg" />
+<input type="hidden" name="form_id" value="search_block_form" />
+</div></form>    </div>
+  </div>
+</div>
+    </div>
+  </header>
+
+  
+  <div class="content-area content-area--has-sidebar clearfix">
+    <div class="flex-area-wraps flex-area-wraps--mb-20 mb-20">
+      <div class="flex-w-100 flex-w-55--860">
+                <h1 class="title" id="page-title">Resource Center</h1>
+              </div>
+      <div class="flex-w-100 flex-w-45--860">
+        <div class="clearfix">
+          <div class="form-row quick-search">
+            <label class="is-visually-hidden" for="q">Search Resources</label>
+            <div role="search">
+                              <form class="search-form" action="/resources/search?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper" method="post" id="search-form" accept-charset="UTF-8"><div><div class="container-inline form-wrapper" id="edit-basic"><div class="position-relative"><div class="form-item form-type-textfield form-item-keys">
+  <input placeholder="Start a new search..." autofocus="" type="text" id="edit-keys" name="keys" value="" size="20" maxlength="255" class="form-text" />
+</div>
+<button type="button" id="clear" class="btn--clean btn--clear" aria-label="clear your search query" aria-controls="example_input">
+  <span aria-hidden="true">&times;</span>
+  <span class="is-visually-hidden">clear search results</span>
+  </button></div><button class="btn--form-action btn--search form-button" type="submit" id="edit-submit" name="op" value="Search">Search</button><input type="hidden" name="get" value="{&quot;f&quot;:[&quot;bundle:video&quot;,&quot;bundle:white_paper&quot;]}" />
+<div class="form-item form-type-checkbox form-item-retain-filters">
+ <input type="checkbox" id="edit-retain-filters" name="retain-filters" value="1" class="form-checkbox" />  <label class="option" for="edit-retain-filters">Retain current filters </label>
+
+</div>
+</div><input type="hidden" name="form_build_id" value="form-M5FmsDURkXShMzd4FftnAsGzvqqB9IAhxeniGnGcx9s" />
+<input type="hidden" name="form_id" value="apachesolr_search_custom_page_search_form" />
+<div class="url-textfield"><div class="form-item form-type-textfield form-item-url">
+  <label for="edit-url">Leave this field blank </label>
+ <input autocomplete="off" type="text" id="edit-url" name="url" value="" size="20" maxlength="128" class="form-text" />
+</div>
+</div></div></form>                          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  <div class="flex-area-wraps">
+    <section class="sidebar sidebar--order-1">
+      <div class="show-mobile-filter-container">
+        <button
+          type="button"
+          data-action="hide-show"
+          data-text="Hide Filters"
+          data-class="hide-on-mobile"
+          aria-controls="search_filters_area"
+          aria-live="polite"
+          aria-expanded="false">
+          Show Filters
+        </button>
+      </div>
+      <div class="sidebar-block hide-on-mobile" id="search_filters_area">
+        <div class="block block-facetapi">
+        <h1 class="txt-down-1">Filter By Resource Type</h1>
+      <div class="item-list"><ul class="facetapi-facetapi-checkbox-links facetapi-facet-bundle list-clean filter-check-list txt-down-2" id="facetapi-facet-apachesolrsolr-block-bundle"><li class="leaf form-row first"><label class="custom-cr display-block"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper&amp;f%5B2%5D=bundle%3Acase_study" rel="nofollow" class="facetapi-checkbox facetapi-inactive" id="facetapi-link">Case Study (6)<span class="element-invisible"> Apply Case Study filter </span></a></label></li>
+<li class="leaf form-row"><label class="custom-cr display-block"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper&amp;f%5B2%5D=bundle%3Adata_sheet" rel="nofollow" class="facetapi-checkbox facetapi-inactive" id="facetapi-link--2">Data Sheet (19)<span class="element-invisible"> Apply Data Sheet filter </span></a></label></li>
+<li class="leaf form-row"><label class="custom-cr display-block"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper&amp;f%5B2%5D=bundle%3Aevent" rel="nofollow" class="facetapi-checkbox facetapi-inactive" id="facetapi-link--3">Event (11)<span class="element-invisible"> Apply Event filter </span></a></label></li>
+<li class="leaf form-row"><label class="custom-cr display-block"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper&amp;f%5B2%5D=bundle%3Apress_releases" rel="nofollow" class="facetapi-checkbox facetapi-inactive" id="facetapi-link--4">Press Release (67)<span class="element-invisible"> Apply Press Release filter </span></a></label></li>
+<li class="leaf form-row"><label class="custom-cr display-block"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper&amp;f%5B2%5D=bundle%3Aanalyst_report" rel="nofollow" class="facetapi-checkbox facetapi-inactive" id="facetapi-link--5">Report (7)<span class="element-invisible"> Apply Report filter </span></a></label></li>
+<li class="leaf form-row"><label class="custom-cr display-block"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper&amp;f%5B2%5D=bundle%3Athreat_advisory" rel="nofollow" class="facetapi-checkbox facetapi-inactive" id="facetapi-link--6">Threat Advisory (11)<span class="element-invisible"> Apply Threat Advisory filter </span></a></label></li>
+<li class="leaf form-row"><label class="custom-cr display-block"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper&amp;f%5B2%5D=bundle%3Afreeware" rel="nofollow" class="facetapi-checkbox facetapi-inactive" id="facetapi-link--7">Tools and Intel (2)<span class="element-invisible"> Apply Tools and Intel filter </span></a></label></li>
+<li class="leaf form-row"><label class="custom-cr display-block checked"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Awhite_paper" rel="nofollow" class="facetapi-checkbox facetapi-active" id="facetapi-link--8">(-) <span class="element-invisible"> Remove Video filter </span></a>Video</label></li>
+<li class="leaf form-row"><label class="custom-cr display-block"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper&amp;f%5B2%5D=bundle%3Awebinar" rel="nofollow" class="facetapi-checkbox facetapi-inactive" id="facetapi-link--9">Webinar (21)<span class="element-invisible"> Apply Webinar filter </span></a></label></li>
+<li class="leaf form-row last"><label class="custom-cr display-block checked"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Avideo" rel="nofollow" class="facetapi-checkbox facetapi-active" id="facetapi-link--10">(-) <span class="element-invisible"> Remove White Paper filter </span></a>White Paper</label></li>
+</ul></div></div><div class="block block-facetapi">
+        <h1 class="txt-down-1">Filter By Topic</h1>
+      <div class="item-list"><ul class="facetapi-facetapi-checkbox-links facetapi-facet-im-field-topics list-clean filter-check-list txt-down-2" id="facetapi-facet-apachesolrsolr-block-im-field-topics"><li class="leaf form-row first"><label class="custom-cr display-block"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper&amp;f%5B2%5D=im_field_topics%3A461" rel="nofollow" class="facetapi-checkbox facetapi-inactive" id="facetapi-link--11">Detecting Attacks (4)<span class="element-invisible"> Apply Detecting Attacks filter </span></a></label></li>
+<li class="leaf form-row"><label class="custom-cr display-block"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper&amp;f%5B2%5D=im_field_topics%3A456" rel="nofollow" class="facetapi-checkbox facetapi-inactive" id="facetapi-link--12">Getting Prepared (2)<span class="element-invisible"> Apply Getting Prepared filter </span></a></label></li>
+<li class="leaf form-row"><label class="custom-cr display-block"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper&amp;f%5B2%5D=im_field_topics%3A471" rel="nofollow" class="facetapi-checkbox facetapi-inactive" id="facetapi-link--13">Improving Incident Response (1)<span class="element-invisible"> Apply Improving Incident Response filter </span></a></label></li>
+<li class="leaf form-row last"><label class="custom-cr display-block"><span class="custom-cr__icon"></span><a href="/resources/search/?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper&amp;f%5B2%5D=im_field_topics%3A476" rel="nofollow" class="facetapi-checkbox facetapi-inactive" id="facetapi-link--14">Industry Insights (4)<span class="element-invisible"> Apply Industry Insights filter </span></a></label></li>
+</ul></div></div>      </div>
+    </section>
+
+  <main id="main-content" role="main" class="site-main site-main--order-2" aria-label="Content">
+        <article role="article">
+      <header class="article-header article-header--no-border">
+                      </header>
+          <section id="block-system-main" class="block block-system">
+      
+<div class="flex-area-wraps mb-8">
+  <div class="mb-12 flex-w-100 flex-w-60--sm flex-align-center">
+    <h1 class="txt-up-2">31 found</h1>
+  </div>
+  <div class="mb-12 flex-w-100 flex-w-40--sm display-inline-all flex-align-center flex-end--sm">
+          <div class="block block-apachesolr-sort">
+        <form action="/resources/search?f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper" method="post" id="apachesolr-sort-sort-form-" accept-charset="UTF-8"><div class="display-inline-all"><input type="hidden" name="form_build_id" value="form-dLnhFBFX30CszDlJg9JxO39QOibULQugiFf61f8R7_s" />
+<input type="hidden" name="form_id" value="apachesolr_sort_sort_form_" />
+<div class="form-actions form-wrapper" id="edit-actions--2"><button class="element-invisible form-submit" type="submit" id="edit-submit--3" name="op" value="Sort results">Sort results</button></div></div></form></div>
+      </div>
+</div>
+    <ul class="flex-area-wraps--space-between list-clean flex-area-wraps  apachesolr_search-results">
+    <li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/whitepaper/fidelis-elevate-cdm-solution">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/field/image/CDM1.png?itok=VPU2MszO" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/whitepaper/fidelis-elevate-cdm-solution">
+          Fidelis Elevate: A CDM Solution         </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  White Paper              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              Explore how Fidelis technology supports the accelerated delivery of threat visibility &amp; orchestrated defenses of the CDM Program.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/whitepaper/post-breach-detection-response-visibility">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/field/image/SeeMoreAcrossYourEnvironment_0.png?itok=-7hHn8My" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/whitepaper/post-breach-detection-response-visibility">
+          See More Across Your Environment: Align Visibility for Post-Breach Detection and Response        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  White Paper              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              Don&#039;t rely on a prevention-only strategy. The right depth of visibility can better enrich rapid post-breach detection and response.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/video/fidelis-deception-explained">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/deception-explained-highlight.png?itok=ybO9WCxf" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/video/fidelis-deception-explained">
+          Fidelis Deception™ Explained        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              What is Fidelis Deception and how can it help you improve your post-breach detection capabilities?          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/whitepaper/automating-threat-detection">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/field/image/Automating_Threat_Detection_2.png?itok=cgHebctU" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/whitepaper/automating-threat-detection">
+          4 Keys to Automating Threat Detection, Threat Hunting and Response        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  White Paper              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              Automating elements of threat detection, threat hunting and response can speed up detection and response, reducing the impact of a threat.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/whitepaper/endpoint-technical-dive">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/field/image/Fidelis_Endpoint.png?itok=PHgh4N1M" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/whitepaper/endpoint-technical-dive">
+          Fidelis Endpoint®: A Technical Deep Dive        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  White Paper              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              Security teams lack complete, unified and automated endpoint detection and response technology. Fidelis Endpoint is designed to help solve this issue.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/video/automate-response-fidelis-elevate%E2%84%A2">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/Vid-Elevate-Automate-Response_0.png?itok=ZqF-E4wk" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/video/automate-response-fidelis-elevate%E2%84%A2">
+          Automate Response with Fidelis Elevate™        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              When investigating a threat, fast response is critical. Learn how Fidelis Elevate provides single click verification and swift response.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/whitepaper/10-deployment-considerations-your-deception-strategy">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/field/image/DeceptionDeploymentStratgies.png?itok=yEbQE84x" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/whitepaper/10-deployment-considerations-your-deception-strategy">
+          10 Deployment Considerations for your Deception Strategy         </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  White Paper              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              Stay one step ahead- Read this e-book to learn about different deception deployment strategies.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/video/network-dlp/demo">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/DLPDemo_0.png?itok=mpzKaAba" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/video/network-dlp/demo">
+          Fidelis Network® DLP Demo        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              See how you can ensure data protection with Fidelis Network® by watching this 30 minute demo.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/whitepapers/network-dlp-buyers-guide">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/field/image/NetworkDLPBuyer%27sGuideImage.png?itok=oSDw47ZT" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/whitepapers/network-dlp-buyers-guide">
+          Network DLP Buyer&#039;s Guide         </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  White Paper              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              Mapping out data security features across an entire environment is no simple task. This guide explains what to look for in a Network DLP solution.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/video/fidelis-elevate-explained">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/FidelisElevateExplainedResourceCard.png?itok=zO0MdhMh" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/video/fidelis-elevate-explained">
+          Fidelis Elevate™ Explained         </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              Watch this short 2 minute video to find out how Fidelis Elevate can ensure faster detection and response to provide accuracy, clarity and certainty.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/video/fidelis-mdr-explained">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/MDR%20%281%29.png?itok=FhGEZbKm" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/video/fidelis-mdr-explained">
+          Fidelis MDR Explained         </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              Find out what makes the Fidelis Managed Detection and Response service unique, and how it can help you speed up your detection and response.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/endpoint/demo/video">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/Vid-Endpoint-live-Demo.png?itok=ordZ5Aoy" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/endpoint/demo/video">
+          Fidelis Endpoint® In Action        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              See how Fidelis Endpoint® technology can help you quickly respond to threats by watching this 20 minute demo.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/products/security-operations-platform/demo/video">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/VID_elevate-demo_0.png?itok=mU-WmEu_" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/products/security-operations-platform/demo/video">
+          Fidelis Elevate In Action        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              In this video, see how Fidelis Elevate™ can help you speed up security, slow down attackers and protect your data.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/automate-endpoint-response">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/VID_automated-endpoint-repsonse_0.png?itok=eXqughPL" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/automate-endpoint-response">
+          Automate Endpoint Response        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              A quick look at how Fidelis Endpoint can automate endpoint response. In this example we show how a detected threat is quarantined.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/reducing-dwell-time-active-deception">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/vid-reducing-dwell-time.png?itok=46zcTqKk" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/reducing-dwell-time-active-deception">
+          Reducing Dwell Time with Active Deception        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              With deception technology you can dramatically reduce dwell time by luring attackers into a decoy environment that looks and feels real.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/deception/demo/video">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/video-deception-demo.png?itok=-kvlffoC" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/deception/demo/video">
+          Video: Fidelis Deception™ In Action        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              See how Fidelis Deception™ technology can help you quickly detect post-breach attacks during this 20 minute demo.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/metadata-decode-secrets">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/field/image/Metadata%20Image.png?itok=ZQBWQBOB" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/metadata-decode-secrets">
+          What&#039;s Hiding Within Your Metadata? How to Decode Your Network&#039;s Deepest and Darkest Secrets.        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  White Paper              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              Rich historical metadata: What it is, how you get it and how related insights and analytics can transform the way you detect and investigate threats.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/whitepaper/automate-security-operations">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/field/image/AutomateandAccelerateEbook.png?itok=3W3kLTag" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/whitepaper/automate-security-operations">
+          Automate &amp; Accelerate Your Security Operations        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  White Paper              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              5 Must-Haves to Rev Up Threat Detection &amp; Response           </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/improve-visibility-detection-and-response-fidelis-elevate%E2%84%A2">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/VID_improve-visibility-yt_0.png?itok=YOT5teZh" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/improve-visibility-detection-and-response-fidelis-elevate%E2%84%A2">
+          Improve Visibility, Detection and Response With Fidelis Elevate™        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              Learn how Fidelis Elevate™ gives you deeper visibility, faster detections, and automated response for your security operations team.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/overcoming-detection-gaps-deep-packet-inspection">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/field/image/Webinar-detection-gaps-dsi_0.png?itok=62WMOxuh" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/overcoming-detection-gaps-deep-packet-inspection">
+          Overcoming Detection Gaps of Deep Packet Inspection Tools        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  White Paper              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              Learn about Fidelis Deep Session Inspection® and how it overcomes the limitations of other DSI products.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/case-study-it-director-marek-laskowski-dzp">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/TESTIMONIAL-DZP-button.png?itok=vDLmwu7b" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/case-study-it-director-marek-laskowski-dzp">
+          Case Study: IT Director, Marek Laskowski, DZP        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              IT Director, Marek Laskowski explains how DZP uses Fidelis to gain visibility of their network and quickly detect and respond to security threats.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/capture-flag-deception">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/field/image/CapturetheFlagwithDeception.png?itok=TlWBm9Sw" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/capture-flag-deception">
+          Capture the Flag with Deception Defenses        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  White Paper              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              Learn more about how deception is quickly gaining the attention of organizations seeking an efficient post-breach detection technology.           </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/video/validating-network-alerts-endpoint">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/vid-validating-network-alert-endpoint.png?itok=lpYlaZ0A" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/video/validating-network-alerts-endpoint">
+          Validating Network Alerts at the Endpoint with Fidelis Elevate™        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              Explore the some of the many benefits of using network and endpoint in a combined platform with Fidelis Elevate™.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li><li class="card resource-list__item flex-w-100 flex-w-50--sm flex-w-100--md flex-w-50--860 flex-w-33--1024">
+
+  <div class="card__img">
+          <a href="/resources/video/reduce-alert-fatigue">
+        <img src="https://fidelissecurity.com/sites/default/files/styles/card/public/vid-Alert-fatigue-network.png?itok=BgkxrLY0" />
+      </a>
+      </div>
+
+  <div class="card__wrapper">
+
+    <div class="flex-area-wraps flex-area-wraps--no-gutter">
+      <h3 class="card__title flex-w-100 flex-order-2">
+        <a href="/resources/video/reduce-alert-fatigue">
+          Reducing Alert Fatigue with Fidelis Network®        </a>
+      </h3>
+
+      <!--
+        this should be positioned before title
+      -->
+      <p class="card__type flex-w-100 flex-order-1">
+                  Video              </p>
+    </div>
+
+    
+
+    <div class="card__desc">
+              A high level overview on how to consolidate your alert list and improve SOC efficiency using conclusions in Fidelis Network.          </div>
+
+
+    <div class="card__action txt-center">
+
+    </div>
+
+    
+  </div>
+</li>  </ul>
+  <footer class="pagination clearfix">
+    <div class="pagination__nav">
+      <div class="item-list"><ul class="list-clean display-inline-all"><li class="pager-current first">1</li>
+<li><a title="Go to page 2" href="/resources/search?page=1&amp;f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper">2</a></li>
+<li class="pager-next last"><a href="/resources/search?page=1&amp;f%5B0%5D=bundle%3Avideo&amp;f%5B1%5D=bundle%3Awhite_paper">Next</a></li>
+</ul></div>    </div>
+  </footer>
+</section>
+          </article>
+  </main>
+
+  </div>
+  </div>
+
+  <footer role="contentinfo" class="site-footer">
+    <div class="content-area">
+      <div class="flex-area-wraps">
+        <div class="flex-w-100 flex-w-50--md site-footer__menu-links block block-menu">
+    <ul class="list-clean"><li class="first expanded flex-w-50"><span title="" class="nolink">Company</span><ul class="list-clean"><li class="first leaf"><a href="/about" title="About Fidelis">About</a></li>
+<li class="leaf"><a href="/leadership" title="Fidelis Leadership">Leadership</a></li>
+<li class="leaf"><a href="/careers" title="Careers at Fidelis">Careers</a></li>
+<li class="leaf"><a href="/press" title="In the Press">Press</a></li>
+<li class="leaf"><a href="/events" title="Fidelis Events">Events</a></li>
+<li class="leaf"><a href="/customers" title="Our Customers">Customers</a></li>
+<li class="leaf"><a href="/contact-us" title="">Contact</a></li>
+<li class="leaf"><span title="" class="separator"></span></li>
+<li class="leaf"><a href="/sitemap" title="">Sitemap</a></li>
+<li class="last leaf"><a href="/privacy-policy" title="">Privacy Policy</a></li>
+</ul></li>
+<li class="last expanded flex-w-50"><span title="" class="nolink">Products</span><ul class="list-clean"><li class="first leaf"><a href="/products/security-operations-platform" title="">Fidelis Elevate</a></li>
+<li class="leaf"><a href="/products/network" title="">Fidelis Network</a></li>
+<li class="leaf"><a href="/products/endpoint" title="">Fidelis Endpoint</a></li>
+<li class="leaf"><a href="/products/deception" title="">Fidelis Deception</a></li>
+<li class="expanded flex-w-50"><span title="" class="nolink">Partners</span><ul class="list-clean"><li class="first leaf"><a href="/channel-partners" title="Fidelis Channel Partners">Channel Partners</a></li>
+<li class="leaf"><a href="/technology-partners" title="Fidelis Technology Partners">Technology Partners</a></li>
+<li class="leaf"><a href="/become-partner" title="Become a Fidelis Partner">Become a Partner</a></li>
+<li class="last leaf"><a href="https://fideliscybersecurity.channeltivity.com/Login" title="Partner Log In ">Partner Login</a></li>
+</ul></li>
+<li class="last expanded flex-w-50"><span title="" class="nolink">Customer Support</span><ul class="list-clean"><li class="first leaf"><a href="/customer-support/login" title="Customer Support ">Customer Login</a></li>
+<li class="leaf"><a href="/resources" title="Resource Center">Resource Center</a></li>
+<li class="leaf"><a href="/customer-support/advanced-training" title="Fidelis Training">Training</a></li>
+<li class="last leaf"><a href="https://www.fidelissecurity.com/customer-support/product-lifecycle" title="">Product and Technology Lifecycle </a></li>
+</ul></li>
+</ul></li>
+</ul></div>
+<div class="flex-w-100 flex-w-50--md site-footer__latest-tweet block block-views">
+      <ul class="list-horizontal site-footer__social-icons"><li class="social-icons"><a href="https://twitter.com/FidelisCyber" title="Visit us on Twitter"><svg width="20" height="16" viewBox="0 0 20 16" xmlns="http://www.w3.org/2000/svg"><path d="M9.711 4.256l.043.692-.722-.084c-2.63-.325-4.928-1.427-6.879-3.277L1.2.669l-.245.678c-.52 1.511-.188 3.107.896 4.18.578.594.448.678-.55.325-.346-.113-.65-.198-.679-.155-.1.099.246 1.384.52 1.892.376.707 1.142 1.399 1.98 1.808l.709.325-.839.014c-.809 0-.838.014-.751.31.289.919 1.43 1.893 2.702 2.317l.896.297-.78.452a8.34 8.34 0 0 1-3.873 1.045c-.65.014-1.185.07-1.185.113 0 .141 1.763.932 2.79 1.243 3.077.918 6.733.522 9.479-1.046 1.95-1.115 3.902-3.333 4.812-5.48.492-1.143.983-3.234.983-4.236 0-.65.043-.735.852-1.512.477-.452.925-.946 1.012-1.087.145-.268.13-.268-.607-.028-1.228.423-1.402.367-.795-.269.448-.452.983-1.27.983-1.51 0-.043-.217.027-.462.154-.26.142-.839.354-1.272.48l-.78.24-.709-.465c-.39-.255-.939-.537-1.228-.622-.737-.198-1.864-.17-2.529.057-1.806.635-2.948 2.274-2.818 4.067z" fill="#FFF" fill-rule="evenodd"/></svg></a></li>
+<li class="social-icons"><a href="https://www.linkedin.com/company/fideliscybersecurity" title="Visit us on LinkedIn"><svg width="18" height="18" viewBox="0 0 18 18" xmlns="http://www.w3.org/2000/svg"><path d="M4.086 5.855V18H.228V5.855h3.858zm.254-3.757c0 1.166-.837 2.099-2.183 2.099h-.024C.837 4.197 0 3.264 0 2.097 0 .908.863 0 2.183 0c1.32 0 2.132.907 2.157 2.098zM18 11.036V18h-3.858v-6.498c0-1.632-.558-2.746-1.955-2.746-1.066 0-1.7.751-1.98 1.476-.102.26-.127.622-.127.985V18H6.222s.05-11.005 0-12.145h3.858v1.72c.512-.827 1.43-2.005 3.478-2.005C16.097 5.57 18 7.306 18 11.036z" fill="#FFF" fill-rule="evenodd"/></svg></a></li>
+<li class="social-icons"><a href="https://www.facebook.com/fideliscyber/" title="Visit us on Facebook"><svg width="18" height="17" viewBox="0 0 8 17" xmlns="http://www.w3.org/2000/svg"><path d="M5.32 17V8.499h2.366L8 5.569H5.32l.004-1.466c0-.764.073-1.173 1.18-1.173h1.48V0H5.615C2.773 0 1.772 1.421 1.772 3.811V5.57H0V8.5h1.772V17H5.32z" fill="#FFF" fill-rule="evenodd"/></svg></a></li>
+<li class="social-icons"><a href="https://www.youtube.com/user/FidSecSys" title="Visit us on YouTube"><svg width="20" height="14" viewBox="0 0 20 14" xmlns="http://www.w3.org/2000/svg"><path d="M19.8 3.02S20 4.63 20 6.24v1.51c0 1.612-.2 3.222-.2 3.222s-.196 1.372-.795 1.976c-.76.793-1.613.797-2.004.843C14.202 13.994 10 14 10 14s-5.2-.047-6.8-.2c-.445-.083-1.444-.058-2.206-.851C.395 12.345.2 10.973.2 10.973S0 9.363 0 7.752v-1.51C0 4.63.2 3.02.2 3.02s.195-1.372.794-1.976C1.756.251 2.607.248 3 .202 5.798 0 9.996 0 9.996 0h.008s4.199 0 6.997.202c.39.046 1.243.05 2.004.842.6.604.795 1.976.795 1.976zM8 9l6-2.491L8 4v5z" fill="#FFF" fill-rule="evenodd"/></svg></a></li>
+</ul>    <div class="tweet-content">
+                  <div class="content">
+      <div class="view view- view-id- view-display-id-block view-dom-id-6d65742ca8fee50d1789f08aabdfa822">
+        
+  
+  
+      <div class="view-content">
+        <div class="mb-30">
+      
+          <a href="http://www.twitter.com/FidelisCyber" class="twitter-handle" target="_blank"><span class="txt-bold">@FidelisCyber</span></a><br /><span class="txt-normal txt-down-2">Mar 6</span><br />    
+          Are you at <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com/search?q=%23RSAC19" class="twitter-hashtag">#RSAC19</a> today? Drop by our booth to see our shiny, brand new <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com/SCMagazine" class="twitter-atreply">@SCMagazine</a> Award for Best Deception Soluti… <a href="https://t.co/K8YmjWdCJm">https://t.co/K8YmjWdCJm</a>    </div>
+  <div class="mb-30">
+      
+          <a href="http://www.twitter.com/FidelisCyber" class="twitter-handle" target="_blank"><span class="txt-bold">@FidelisCyber</span></a><br /><span class="txt-normal txt-down-2">Mar 6</span><br />    
+          RT <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com/danwoodsearly" class="twitter-atreply">@danwoodsearly</a>: Nick Lantuh, CEO of <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com/FidelisCyber" class="twitter-atreply">@FidelisCyber</a> described many distractions to true cybersecurity on <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com/EarlyAdopterEAR" class="twitter-atreply">@EarlyAdopterEAR</a> podcast cap… <a href="https://t.co/iubSaTqeDR">https://t.co/iubSaTqeDR</a>    </div>
+  <div class="mb-30">
+      
+          <a href="http://www.twitter.com/FidelisCyber" class="twitter-handle" target="_blank"><span class="txt-bold">@FidelisCyber</span></a><br /><span class="txt-normal txt-down-2">Mar 6</span><br />    
+          RT <a target="_blank" rel="nofollow" class="twitter-timeline-link" href="https://twitter.com/eCrime_Congress" class="twitter-atreply">@eCrime_Congress</a>: 'You can't just download intelligence' - great insights on making the most of threat intel from Danny Pickens… <a href="https://t.co/50b1PEI1Eg">https://t.co/50b1PEI1Eg</a>    </div>
+    </div>
+  
+  
+  
+  
+  
+  
+</div>    </div>
+  </div>
+  <div class="sc-finalist">
+    <a href="https://www.scmagazine.com/2019-sc-awards-finalists/" target="_blank">
+    <img alt="" height="75" src="/sites/default/files/imce/SCAWARDS2019_DKBG.png" width="250">
+    <span>Selected as a finalist for the <strong>Best Deception Technology</strong> and <strong>Best DLP Solution</strong><span></a>    
+  </div>  
+</div>
+<article id="block-block-1" class="block block-block">
+          <div class="content">
+    <p class="site-footer__copyright">Copyright @ 2019 Fidelis Cybersecurity. All rights reserved.</p>
+  </div>
+</article>
+      </div>
+    </div>
+  </footer>
+
+</div>
+  <script type="text/javascript">
+<!--//--><![CDATA[//><!--
+document.write(unescape("%3Cscript src='//munchkin.marketo.net/munchkin.js' type='text/javascript'%3E%3C/script%3E"));
+//--><!]]>
+</script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+Munchkin.init('884-ZRZ-648');
+//--><!]]>
+</script>
+  <script type="text/javascript" src="https://fidelissecurity.com/sites/default/files/google_tag/google_tag.script.js?pnzlb3"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+window.googleanalytics_search_results = 31;
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://fidelissecurity.com/sites/all/modules/contrib/jquery_update/replace/jquery/1.10/jquery.min.js?v=1.10.2"></script>
+<script type="text/javascript" src="https://fidelissecurity.com/misc/jquery.once.js?v=1.2"></script>
+<script type="text/javascript" src="https://fidelissecurity.com/misc/drupal.js?pnzlb3"></script>
+<script type="text/javascript" src="https://fidelissecurity.com/sites/all/modules/contrib/forcejs/forcejs.js?pnzlb3"></script>
+<script type="text/javascript" src="https://fidelissecurity.com/sites/all/modules/contrib/apachesolr_sort/apachesolr_sort.js?pnzlb3"></script>
+<script type="text/javascript" src="https://fidelissecurity.com/sites/all/modules/contrib/google_analytics/googleanalytics.js?pnzlb3"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+(function(i,s,o,g,r,a,m){i["GoogleAnalyticsObject"]=r;i[r]=i[r]||function(){(i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)})(window,document,"script","https://www.google-analytics.com/analytics.js","ga");ga("create", "UA-16862204-1", {"cookieDomain":"auto"});ga("set", "anonymizeIp", true);ga("send", "pageview");
+//--><!]]>
+</script>
+<script type="text/javascript" src="https://fidelissecurity.com/sites/all/modules/contrib/facetapi/facetapi.js?pnzlb3"></script>
+<script type="text/javascript" src="https://fidelissecurity.com/sites/all/themes/fidelis2016/mtiFontTrackingCode.js?pnzlb3"></script>
+<script type="text/javascript" src="https://fidelissecurity.com/sites/all/themes/fidelis2016/assets/js/app.min.js?pnzlb3"></script>
+<script type="text/javascript" src="https://fidelissecurity.com/sites/all/themes/fidelis2016/assets/js/jquery.labelsPrepare.js?pnzlb3"></script>
+<script type="text/javascript" src="https://fidelissecurity.com/sites/all/themes/fidelis2016/assets/js/jquery.select.js?pnzlb3"></script>
+<script type="text/javascript" src="https://fidelissecurity.com/sites/all/themes/fidelis2016/assets/js/chosen.jquery.js?pnzlb3"></script>
+<script type="text/javascript" src="https://fidelissecurity.com/sites/all/themes/fidelis2016/assets/js/script.js?pnzlb3"></script>
+<script type="text/javascript">
+<!--//--><![CDATA[//><!--
+jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"fidelis2016","theme_token":"qLGSyLjwfkk2M-Ynj3P_40LBFzoAEThx-X4g2w9Tn24","js":{"0":1,"1":1,"public:\/\/google_tag\/google_tag.script.js":1,"2":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.10\/jquery.min.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/forcejs\/forcejs.js":1,"sites\/all\/modules\/contrib\/apachesolr_sort\/apachesolr_sort.js":1,"sites\/all\/modules\/contrib\/google_analytics\/googleanalytics.js":1,"3":1,"sites\/all\/modules\/contrib\/facetapi\/facetapi.js":1,"sites\/all\/themes\/fidelis2016\/mtiFontTrackingCode.js":1,"sites\/all\/themes\/fidelis2016\/assets\/js\/app.min.js":1,"sites\/all\/themes\/fidelis2016\/assets\/js\/jquery.labelsPrepare.js":1,"sites\/all\/themes\/fidelis2016\/assets\/js\/jquery.select.js":1,"sites\/all\/themes\/fidelis2016\/assets\/js\/chosen.jquery.js":1,"sites\/all\/themes\/fidelis2016\/assets\/js\/script.js":1},"css":{"modules\/system\/system.base.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/contrib\/date\/date_repeat_field\/date_repeat_field.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/facetapi\/facetapi.css":1,"public:\/\/honeypot\/honeypot.css":1,"sites\/all\/themes\/fidelis2016\/assets\/js\/chosen.css":1,"sites\/all\/themes\/fidelis2016\/assets\/css\/styles.css":1,"sites\/all\/themes\/fidelis2016\/assets\/css\/custom.css":1,"cpn_global":1}},"facetapi":{"facets":[{"limit":"20","id":"facetapi-facet-apachesolrsolr-block-bundle","searcher":"apachesolr@solr","realmName":"block","facetName":"bundle","queryType":null,"widget":"facetapi_checkbox_links","showMoreText":"Show more","showFewerText":"Show fewer","makeCheckboxes":1},{"limit":"20","id":"facetapi-facet-apachesolrsolr-block-im-field-topics","searcher":"apachesolr@solr","realmName":"block","facetName":"im_field_topics","queryType":"term","widget":"facetapi_checkbox_links","showMoreText":"Show more","showFewerText":"Show fewer","makeCheckboxes":1}]},"googleanalytics":{"trackOutbound":1,"trackMailto":1,"trackDownload":1,"trackDownloadExtensions":"7z|aac|arc|arj|asf|asx|avi|bin|csv|doc(x|m)?|dot(x|m)?|exe|flv|gif|gz|gzip|hqx|jar|jpe?g|js|mp(2|3|4|e?g)|mov(ie)?|msi|msp|pdf|phps|png|ppt(x|m)?|pot(x|m)?|pps(x|m)?|ppam|sld(x|m)?|thmx|qtm?|ra(m|r)?|sea|sit|tar|tgz|torrent|txt|wav|wma|wmv|wpd|xls(x|m|b)?|xlt(x|m)|xlam|xml|z|zip"},"currentPath":"resources\/search","currentPathIsAdmin":false,"urlIsAjaxTrusted":{"\/resources\/search?f%5B0%5D=bundle%3Avideo\u0026f%5B1%5D=bundle%3Awhite_paper":true}});
+//--><!]]>
+</script>
+
+  <!-- LinkedIn Tracking  -->
+  <script type="text/javascript">
+      _linkedin_data_partner_id = "307241";
+  </script><script type="text/javascript">
+      (function(){var s = document.getElementsByTagName("script")[0];
+          var b = document.createElement("script");
+          b.type = "text/javascript";b.async = true;
+          b.src = "https://snap.licdn.com/li.lms-analytics/insight.min.js";
+          s.parentNode.insertBefore(b, s);})();
+  </script>
+  <noscript>
+      <img height="1" width="1" style="display:none;" alt="" src="https://dc.ads.linkedin.com/collect/?pid=307241&fmt=gif" />
+  </noscript>
+</body>
+
+<script>
+  (function(d,b,a,s,e){ var t = b.createElement(a),
+    fs = b.getElementsByTagName(a)[0]; t.async=1; t.id=e;
+    t.src=('https:'==document.location.protocol ? 'https://' : 'http://') + s;
+    fs.parentNode.insertBefore(t, fs); })
+  (window,document,'script','scripts.demandbase.com/17b488fe.min.js','demandbase_js_lib');
+</script>
+
+<script type="text/javascript">
+  (function (w, d) {
+    w.biJsUrl = "//app.brightinfo.com/BrightInfoVersion.aspx"; w._biq = w._biq || []; _biq.push("fidelissecurity-15091-1");
+    function go() { setTimeout(function () {
+      var bi = d.createElement('script'); bi.type = 'text/javascript'; bi.async = true; bi.src = biJsUrl;
+      var s = d.getElementsByTagName('script')[0]; s.parentNode.insertBefore(bi, s); }, 500); }
+    if (w.addEventListener) { w.addEventListener("load", go, false); }
+    else if (w.attachEvent) { w.attachEvent("onload", go); }
+  }(window, document));
+</script>
+
+</html>

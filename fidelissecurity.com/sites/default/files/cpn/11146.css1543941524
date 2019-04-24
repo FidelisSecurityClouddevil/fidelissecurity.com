@@ -1,0 +1,223 @@
+.crumbs{display:none !important}
+
+.graphic-hero{padding-bottom:0 !important}
+
+.paragraphs-item-graphic-hero{margin-bottom:0px !important}
+/*.node-products-services .entity-paragraphs-item, .node-products-services .content-callout {margin-bottom: 20px;} */
+
+
+.paragraphs-item-graphic-hero--products-services .graphic-hero__contents {text-align: left; padding: 10em 0 5em 0; margin-bottom:0px}
+.content-area.content-area--flush-top{padding-bottom:0}
+
+.graphic-hero__contents h1 {font-weight:bold; text-align:left}
+.graphic-hero__contents h5 {font-size:2.1rem; text-align:left}
+
+/* constraining 50/50 text field */
+.field-type-text-long{padding:0 5%;}
+
+/*main section image size */
+.node-products-services .simplified-layout-2017 .paragraphs-item-50-50-layout .paragraphs-item-media {max-width: 100%;}
+
+.product-list--horizontal--text h3{ font-size: 1.4rem; color: #e55f06;} 
+.product-list--horizontal--text p{ color: #11415d; margin-left: inherit; margin-right: auto; }
+
+/*Remove padding from 50.50 container and push media down over full view port */
+
+.node-products-services .simplified-layout-2017 .paragraphs-item-50-50-layout {margin-bottom:0px;}
+.node-products-services .simplified-layout-2017 .paragraphs-item-50-50-layout .paragraphs-item-media{position: relative; top: 70px;}
+
+/*top padding for full view port */
+.paragraphs-item-full-view-port .paragraphs-items-field-inner-content{padding: 3em 0 2em 0;}
+figure{max-width: 14%; position: relative; left:10%;}
+
+/*details bar align right */
+.product-details-right figure{ left: inherit; right:10%; position: relative;}
+.product-details-right {text-align: right;}
+.product-details-right .product-list--horizontal--img{float: right !important;}
+.product-details-right .product-list--horizontal--text{    float: left; padding-right: 5%;}
+.product-details-right p{margin-left: auto; margin-right: inherit;}
+
+.txt-down-1.rteright{float:right; padding-right:0px;}
+
+.link--cta{padding-right:0px}
+
+/* Quote Section */
+
+.content-quote blockquote{padding: 3% 0% 4% 0%}
+.content-quote blockquote p{    color: #FFF;
+    font-family: "Demos",Georgia,"Times New Roman",Times,"Times New Roman",Times,serif;
+    font-size: 1.6em;
+    letter-spacing: 1px;
+    line-height: 1.1;
+    margin-bottom: 0;
+    margin-top: 0;
+    font-style: italic;
+    font-weight: bold;
+max-width:100%}
+.content-quote blockquote:before {position: relative;
+    background: url(https://www.fidelissecurity.com/sites/default/files/left-quote-white.png) no-repeat center center;
+    background-size: 6%;
+    content: '';
+    display: block;
+    height: 75px;
+    width: 100%;}
+
+.content-quote blockquote .attribute{text-align: right; padding-top: 20px;}
+.content-quote blockquote .attribute a{color:#FFF}
+
+
+.content-cloud h3{color:#FFF}
+
+/* BUTTONS */
+
+.cta-orange, .cta-white{
+    margin-top: 2em; 
+    margin-left: 1.5rem;
+    margin-top: 20px;
+    display: inline-block;
+    white-space:nowrap;
+    border-radius: 3px;
+    padding: .6rem 1.25rem;
+    font-size: 18px;
+    font-size: 1.125rem;
+    text-decoration: none;
+}
+
+.cta-orange {
+    background-image: linear-gradient(-180deg,rgba(229,95,6,0.8) 3%,rgba(179,74,5,0.8) 99%); color: #fff;
+}
+
+.cta-orange:hover {color:#FFF}
+
+.cta-white {
+    background: #FFF;
+    box-shadow: 0px 1px 0px 0px #ccc, 0px 1px 0px 0px rgba(0,0,0,0.25);
+}
+   .graphic-hero__cta a{display: -webkit-inline-box;    margin: 10px 5px;}
+
+
+
+/* Image Rollover */   
+.roll_container{position:relative}
+.roll_image{display: block;}
+.roll_overlay{  position: absolute; top: 0; bottom: 0; left: 0 right: 0; height: 100%; opacity: 0; transition: .3s ease;}
+.roll_container:hover .roll_overlay {opacity: 1;}
+
+
+
+
+
+/* ALIGN TOP 50/50 */
+.align-inherit {align-items: inherit !important; justify-content: inherit !important;}
+
+/*  SCHEDULE A DEMO CTA  */
+.prod-demo {background-image: url(https://www.fidelissecurity.com/sites/default/files/Demo-laptop-endpoint-new.png);}
+
+
+
+
+.paragraphs-item-full-view-port .paragraphs-items-field-inner-content {
+    margin-right: 18%;
+    margin-left: 18%;
+    height: 100%;
+    padding: 2em 0;}
+
+.node-products-services .entity-paragraphs-item, .node-products-services .content-callout {
+    margin-bottom: 0px;
+}
+
+
+h1.callout{color: #7FBD38; font-weight: bold; text-align: center; font-size: 2.8rem; padding: 30px 0px 20px 0px;}
+.calloutLink {font-weight:bold; text-align: center;}
+.calloutLink a:link{text-decoration:none; color:#fff}
+.calloutLink a:visited{text-decoration:none; color:#fff}
+.calloutLink a:hover{text-decoration:none; color: #e55f06;}
+
+
+.sectionForce h4{    font-weight: bold;
+    font-size: 1.75rem;
+    color: #707070;
+    text-align: center;
+    margin: 0px auto .75rem auto;}
+
+.sectionForce h2{font-weight: normal;  }
+.sectionForce .flex-w-50--lg {padding: 2em 5em 0em 5em;}
+.sectionForce .flex-w-50--lg.border {background: url(https://www.fidelissecurity.com/sites/default/files/line_orange.png) no-repeat right;}
+.sectionForce li{margin-bottom: .7em;}
+
+.hoverContent ul { margin-bottom:0px}
+.hoverList ul { list-style-type: none; margin-bottom:0px}
+
+.hoverList li h3 {font-size: 1.3rem; color: #e55f06; font-weight:normal; text-decoration: none; background: url(https://www.fidelissecurity.com/sites/default/files/check_outline-39.png) no-repeat; height: 39px; padding: 6px 0px 0px 50px;}
+
+.hoverList li h3:hover{ background: url(https://www.fidelissecurity.com/sites/default/files/check_solid-39.png) no-repeat;}
+
+.hoverList li h3 a{color: #e55f06 !important; text-decoration:none}
+.hoverList li h3 a:link{color: #e55f06 !important; text-decoration:none}
+.hoverList li h3 a:visited{color: #e55f06 !important; text-decoration:none}
+.hoverList li h3 a:hover{color:#bed7dc !important; text-decoration:none;}
+
+
+.hoverList .doubleLine{line-height:25px; margin-bottom: 31px;}
+.hoverContent{ color:#bed7dc}
+.hoverContent .listHeader{margin-bottom: 5px; font-weight: bold; font-size: 1.75rem; line-height: 2rem;}
+
+.sectionDetail{}
+
+.btn, .btn:hover{
+    background-color: #77bc1f;
+    text-transform: uppercase;
+    border-radius: 2px;
+    font-size: 1rem;
+    line-height: 1;
+    padding: .72em 1em 0.4em;
+    position: relative;
+    text-align: center;
+    text-decoration: none !important;
+    vertical-align: middle;
+    box-shadow: 0px 2px 0px 0px #5a8e17, 0px 2px 2px 0px rgba(0,0,0,0.25);
+    color: #FFF;
+    text-shadow: none;
+    transition: transform .15s ease-in-out,box-shadow .2s ease-in-out;
+    transform: translateY(0px);
+    font-weight: bold !important;}
+
+.sectionResource .content{text-align:right}
+.sectionResource img{width:80%}
+.sectionResource .resourceDesc{
+     font-weight: bold;
+    font-size: 2rem;
+    line-height: 2rem;
+color:#FFF}
+
+.sectionResource .resourceDesc span{font-weight: normal;
+    font-size: 1.2rem;
+    color: #414B5C;
+    line-height: 1rem;}
+
+
+
+
+
+
+
+.blueBack p{color:#FFF}
+.blueBack h3, .blueBack a{color: #ffb719;}
+
+p.contentBlueBack{color:#FFF;}
+
+.paragraphs-item-full-view-port .paragraphs-items-field-inner-content {padding: 4em 0;}
+
+.center {text-align:center; margin-left:auto; margin-right:auto}
+.center p { margin: 0 auto;}
+@media screen and (min-width: 949px) {
+ .gutter-block {
+  padding-left: 4em;
+ }
+.equal-column {
+ max-width: 450px; 
+ }
+.equal-column p {
+  text-align: justify;
+ }
+}

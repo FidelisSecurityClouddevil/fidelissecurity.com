@@ -1,0 +1,6 @@
+
+# BEGIN WordPress
+<Files "wp-config-sample.php">
+	ForceType text/plain
+</Files>
+# END WordPress

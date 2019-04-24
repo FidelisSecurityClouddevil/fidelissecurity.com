@@ -1,0 +1,54 @@
+/*
+  Prepare structure inputs labels & label 0.3 (11.30.18)
+  Author: Pavel Tkach
+*/
+(function($){
+  jQuery.fn.labelsPrepare = function(options){
+    var options = $.extend({
+      checkbox: true,
+      radio: true,
+      file: false, 
+      file_button: "UPLOAD",
+      file_placeholder: "Choose file" ,
+      placeholder: false,
+      label_placeholder: '',
+      wrap_placeholder: ''        
+    }, options);
+
+    $(this).each(function(i) {
+      var type = $(this).attr('type'),
+      $inp = $(this), id = !$inp.attr('id')?($inp.attr('id','add'+type+i),'add'+type+i):$inp.attr('id');
+      if ( ( type == 'checkbox' && options.checkbox ) ||  (type == 'radio' && options.radio ) ) {
+        var $lbl = $('<label for="'+ id +'">'+type+'label'+i+'</label >');
+        $lbl = $('label[for='+id+']').length ? $('label[for='+ id +']') : $lbl;
+        $inp.after($lbl);
+      };
+      if ( type == 'file' && options.file ) {
+        var $wrap = $inp.closest('label'), $btn, $lbl;
+        if ( !$wrap || !$wrap.length) {
+          $wrap = $('<label for="'+ id +'" class="upload-file-name"></label>');
+          $wrap = $('label[for='+id+']').length ? $('label[for='+ id +']') : $wrap;
+
+          $inp.wrap($wrap);          
+        } else {
+          $btn = $wrap.find('.upload-file-button');
+          $lbl = $wrap.find('.upload-file-placeholder');
+        }
+        if (!$btn) $btn = $('<span class="upload-file-button"></span').insertBefore($inp);
+        if (!$lbl) $lbl = $('<span class="upload-file-placeholder"></span').insertBefore($inp);
+        $btn.text(options.file_button);
+        $lbl.text(options.file_placeholder);
+      };
+      if ( options.placeholder ) {
+        var $w = $(this).closest(options.wrap_placeholder), lbl;
+        if ( options.placeholder === true ) { 
+          lbl = $w && $w.find(options.label_placeholder)?$w.find(options.label_placeholder).text():''; 
+        } else {
+          lbl = options.placeholder;
+        }
+        if (lbl) $(this).attr('placeholder', $.trim(lbl));
+      };
+    });
+    return $(this);
+  };
+})(jQuery);

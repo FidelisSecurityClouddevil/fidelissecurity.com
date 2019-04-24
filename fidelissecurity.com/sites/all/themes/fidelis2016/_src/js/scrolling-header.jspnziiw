@@ -1,0 +1,15 @@
+(function () {
+
+  "use strict";
+
+  document.documentElement.className = "js-scroll";
+    var controller = new ScrollMagic.Controller();
+    var scene = new ScrollMagic.Scene({
+    triggerElement: "#trigger-js-scroll"
+  })
+  
+  .setClassToggle(".page", "is-scrolled")
+  //For debug only
+  //.addIndicators({name: "1 (duration: 0)"}) // add indicators (requires plugin)
+  .addTo(controller);
+})();
